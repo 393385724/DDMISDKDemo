@@ -7,25 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9010371F1C7F05E3006B9679 /* DDMIAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 901036FC1C7F05E3006B9679 /* DDMIAuthViewController.m */; };
-		901037201C7F05E3006B9679 /* DDMIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 901036FE1C7F05E3006B9679 /* DDMIBaseViewController.m */; };
-		901037211C7F05E3006B9679 /* DDMICircleIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 901037001C7F05E3006B9679 /* DDMICircleIndicator.m */; };
-		901037221C7F05E3006B9679 /* DDMIDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 901037021C7F05E3006B9679 /* DDMIDownLoader.m */; };
-		901037231C7F05E3006B9679 /* DDMIHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 901037041C7F05E3006B9679 /* DDMIHandler.m */; };
-		901037241C7F05E3006B9679 /* DDMILoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 901037071C7F05E3006B9679 /* DDMILoginViewController.m */; };
-		901037251C7F05E3006B9679 /* DDMIRequestHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 901037091C7F05E3006B9679 /* DDMIRequestHandle.m */; };
-		901037261C7F05E3006B9679 /* DDMIUserInfoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9010370B1C7F05E3006B9679 /* DDMIUserInfoItem.m */; };
-		901037271C7F05E3006B9679 /* DDMIVerifyLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9010370D1C7F05E3006B9679 /* DDMIVerifyLoginViewController.m */; };
-		901037281C7F05E3006B9679 /* DDMILocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9010370F1C7F05E3006B9679 /* DDMILocalizable.strings */; };
-		901037291C7F05E3006B9679 /* DDMIAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 901037111C7F05E3006B9679 /* DDMIAuthViewController.xib */; };
-		9010372A1C7F05E3006B9679 /* DDMIImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 901037121C7F05E3006B9679 /* DDMIImage.xcassets */; };
-		9010372B1C7F05E3006B9679 /* DDMILoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 901037131C7F05E3006B9679 /* DDMILoginViewController.xib */; };
-		9010372C1C7F05E3006B9679 /* DDMIVerifyLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 901037141C7F05E3006B9679 /* DDMIVerifyLoginViewController.xib */; };
-		9010372D1C7F05E3006B9679 /* UIButton+DDHitTestEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 901037191C7F05E3006B9679 /* UIButton+DDHitTestEdgeInsets.m */; };
-		9010372E1C7F05E3006B9679 /* UIView+DDAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9010371B1C7F05E3006B9679 /* UIView+DDAction.m */; };
-		9010372F1C7F05E3006B9679 /* UIView+DDFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9010371D1C7F05E3006B9679 /* UIView+DDFrame.m */; };
 		901037321C7F068F006B9679 /* XMPassport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901037311C7F068F006B9679 /* XMPassport.framework */; };
 		901037341C7F1240006B9679 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 901037331C7F1240006B9679 /* libstdc++.tbd */; };
+		9010375B1C7FE44D006B9679 /* DDMIAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 901037381C7FE44D006B9679 /* DDMIAuthViewController.m */; };
+		9010375C1C7FE44D006B9679 /* DDMIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9010373A1C7FE44D006B9679 /* DDMIBaseViewController.m */; };
+		9010375D1C7FE44D006B9679 /* DDMICircleIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9010373C1C7FE44D006B9679 /* DDMICircleIndicator.m */; };
+		9010375E1C7FE44D006B9679 /* DDMIDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9010373F1C7FE44D006B9679 /* DDMIDownLoader.m */; };
+		9010375F1C7FE44D006B9679 /* DDMIHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 901037411C7FE44D006B9679 /* DDMIHandler.m */; };
+		901037601C7FE44D006B9679 /* DDMILoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 901037431C7FE44D006B9679 /* DDMILoginViewController.m */; };
+		901037611C7FE44D006B9679 /* DDMIRequestHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 901037451C7FE44D006B9679 /* DDMIRequestHandle.m */; };
+		901037621C7FE44D006B9679 /* DDMIUserInfoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 901037471C7FE44D006B9679 /* DDMIUserInfoItem.m */; };
+		901037631C7FE44D006B9679 /* DDMIVerifyLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 901037491C7FE44D006B9679 /* DDMIVerifyLoginViewController.m */; };
+		901037641C7FE44D006B9679 /* UIButton+DDHitTestEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 9010374B1C7FE44D006B9679 /* UIButton+DDHitTestEdgeInsets.m */; };
+		901037651C7FE44D006B9679 /* UIView+DDAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9010374D1C7FE44D006B9679 /* UIView+DDAction.m */; };
+		901037661C7FE44D006B9679 /* UIView+DDFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9010374F1C7FE44D006B9679 /* UIView+DDFrame.m */; };
+		901037671C7FE44D006B9679 /* DDMILocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 901037511C7FE44D006B9679 /* DDMILocalizable.strings */; };
+		901037681C7FE44D006B9679 /* DDMIAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 901037531C7FE44D006B9679 /* DDMIAuthViewController.xib */; };
+		901037691C7FE44D006B9679 /* DDMIImage.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 901037541C7FE44D006B9679 /* DDMIImage.xcassets */; };
+		9010376A1C7FE44D006B9679 /* DDMILoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 901037551C7FE44D006B9679 /* DDMILoginViewController.xib */; };
+		9010376B1C7FE44D006B9679 /* DDMIVerifyLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 901037561C7FE44D006B9679 /* DDMIVerifyLoginViewController.xib */; };
+		9010376C1C7FE44D006B9679 /* XMPassport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9010375A1C7FE44D006B9679 /* XMPassport.framework */; };
 		9066F5131C7ED777002D236D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9066F5121C7ED777002D236D /* Foundation.framework */; };
 		9066F5151C7ED77D002D236D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9066F5141C7ED77D002D236D /* UIKit.framework */; };
 		90EE1D051C7DA61800102C29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EE1D041C7DA61800102C29 /* main.m */; };
@@ -38,41 +39,42 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		901036FB1C7F05E3006B9679 /* DDMIAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIAuthViewController.h; sourceTree = "<group>"; };
-		901036FC1C7F05E3006B9679 /* DDMIAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIAuthViewController.m; sourceTree = "<group>"; };
-		901036FD1C7F05E3006B9679 /* DDMIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIBaseViewController.h; sourceTree = "<group>"; };
-		901036FE1C7F05E3006B9679 /* DDMIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIBaseViewController.m; sourceTree = "<group>"; };
-		901036FF1C7F05E3006B9679 /* DDMICircleIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMICircleIndicator.h; sourceTree = "<group>"; };
-		901037001C7F05E3006B9679 /* DDMICircleIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMICircleIndicator.m; sourceTree = "<group>"; };
-		901037011C7F05E3006B9679 /* DDMIDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIDownLoader.h; sourceTree = "<group>"; };
-		901037021C7F05E3006B9679 /* DDMIDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIDownLoader.m; sourceTree = "<group>"; };
-		901037031C7F05E3006B9679 /* DDMIHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIHandler.h; sourceTree = "<group>"; };
-		901037041C7F05E3006B9679 /* DDMIHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIHandler.m; sourceTree = "<group>"; };
-		901037051C7F05E3006B9679 /* DDMIDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIDefines.h; sourceTree = "<group>"; };
-		901037061C7F05E3006B9679 /* DDMILoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMILoginViewController.h; sourceTree = "<group>"; };
-		901037071C7F05E3006B9679 /* DDMILoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMILoginViewController.m; sourceTree = "<group>"; };
-		901037081C7F05E3006B9679 /* DDMIRequestHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIRequestHandle.h; sourceTree = "<group>"; };
-		901037091C7F05E3006B9679 /* DDMIRequestHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIRequestHandle.m; sourceTree = "<group>"; };
-		9010370A1C7F05E3006B9679 /* DDMIUserInfoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIUserInfoItem.h; sourceTree = "<group>"; };
-		9010370B1C7F05E3006B9679 /* DDMIUserInfoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIUserInfoItem.m; sourceTree = "<group>"; };
-		9010370C1C7F05E3006B9679 /* DDMIVerifyLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIVerifyLoginViewController.h; sourceTree = "<group>"; };
-		9010370D1C7F05E3006B9679 /* DDMIVerifyLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIVerifyLoginViewController.m; sourceTree = "<group>"; };
-		901037101C7F05E3006B9679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/DDMILocalizable.strings; sourceTree = "<group>"; };
-		901037111C7F05E3006B9679 /* DDMIAuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMIAuthViewController.xib; sourceTree = "<group>"; };
-		901037121C7F05E3006B9679 /* DDMIImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DDMIImage.xcassets; sourceTree = "<group>"; };
-		901037131C7F05E3006B9679 /* DDMILoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMILoginViewController.xib; sourceTree = "<group>"; };
-		901037141C7F05E3006B9679 /* DDMIVerifyLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMIVerifyLoginViewController.xib; sourceTree = "<group>"; };
-		901037151C7F05E3006B9679 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DDMILocalizable.strings; sourceTree = "<group>"; };
-		901037161C7F05E3006B9679 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DDMILocalizable.strings"; sourceTree = "<group>"; };
-		901037171C7F05E3006B9679 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/DDMILocalizable.strings"; sourceTree = "<group>"; };
-		901037181C7F05E3006B9679 /* UIButton+DDHitTestEdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DDHitTestEdgeInsets.h"; sourceTree = "<group>"; };
-		901037191C7F05E3006B9679 /* UIButton+DDHitTestEdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DDHitTestEdgeInsets.m"; sourceTree = "<group>"; };
-		9010371A1C7F05E3006B9679 /* UIView+DDAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DDAction.h"; sourceTree = "<group>"; };
-		9010371B1C7F05E3006B9679 /* UIView+DDAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DDAction.m"; sourceTree = "<group>"; };
-		9010371C1C7F05E3006B9679 /* UIView+DDFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DDFrame.h"; sourceTree = "<group>"; };
-		9010371D1C7F05E3006B9679 /* UIView+DDFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DDFrame.m"; sourceTree = "<group>"; };
 		901037311C7F068F006B9679 /* XMPassport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XMPassport.framework; path = DDMISDK/XMPassport.framework; sourceTree = "<group>"; };
 		901037331C7F1240006B9679 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		901037371C7FE44D006B9679 /* DDMIAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIAuthViewController.h; sourceTree = "<group>"; };
+		901037381C7FE44D006B9679 /* DDMIAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIAuthViewController.m; sourceTree = "<group>"; };
+		901037391C7FE44D006B9679 /* DDMIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIBaseViewController.h; sourceTree = "<group>"; };
+		9010373A1C7FE44D006B9679 /* DDMIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIBaseViewController.m; sourceTree = "<group>"; };
+		9010373B1C7FE44D006B9679 /* DDMICircleIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMICircleIndicator.h; sourceTree = "<group>"; };
+		9010373C1C7FE44D006B9679 /* DDMICircleIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMICircleIndicator.m; sourceTree = "<group>"; };
+		9010373D1C7FE44D006B9679 /* DDMIDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIDefines.h; sourceTree = "<group>"; };
+		9010373E1C7FE44D006B9679 /* DDMIDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIDownLoader.h; sourceTree = "<group>"; };
+		9010373F1C7FE44D006B9679 /* DDMIDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIDownLoader.m; sourceTree = "<group>"; };
+		901037401C7FE44D006B9679 /* DDMIHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIHandler.h; sourceTree = "<group>"; };
+		901037411C7FE44D006B9679 /* DDMIHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIHandler.m; sourceTree = "<group>"; };
+		901037421C7FE44D006B9679 /* DDMILoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMILoginViewController.h; sourceTree = "<group>"; };
+		901037431C7FE44D006B9679 /* DDMILoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMILoginViewController.m; sourceTree = "<group>"; };
+		901037441C7FE44D006B9679 /* DDMIRequestHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIRequestHandle.h; sourceTree = "<group>"; };
+		901037451C7FE44D006B9679 /* DDMIRequestHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIRequestHandle.m; sourceTree = "<group>"; };
+		901037461C7FE44D006B9679 /* DDMIUserInfoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIUserInfoItem.h; sourceTree = "<group>"; };
+		901037471C7FE44D006B9679 /* DDMIUserInfoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIUserInfoItem.m; sourceTree = "<group>"; };
+		901037481C7FE44D006B9679 /* DDMIVerifyLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIVerifyLoginViewController.h; sourceTree = "<group>"; };
+		901037491C7FE44D006B9679 /* DDMIVerifyLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIVerifyLoginViewController.m; sourceTree = "<group>"; };
+		9010374A1C7FE44D006B9679 /* UIButton+DDHitTestEdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DDHitTestEdgeInsets.h"; sourceTree = "<group>"; };
+		9010374B1C7FE44D006B9679 /* UIButton+DDHitTestEdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DDHitTestEdgeInsets.m"; sourceTree = "<group>"; };
+		9010374C1C7FE44D006B9679 /* UIView+DDAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DDAction.h"; sourceTree = "<group>"; };
+		9010374D1C7FE44D006B9679 /* UIView+DDAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DDAction.m"; sourceTree = "<group>"; };
+		9010374E1C7FE44D006B9679 /* UIView+DDFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DDFrame.h"; sourceTree = "<group>"; };
+		9010374F1C7FE44D006B9679 /* UIView+DDFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DDFrame.m"; sourceTree = "<group>"; };
+		901037521C7FE44D006B9679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/DDMILocalizable.strings; sourceTree = "<group>"; };
+		901037531C7FE44D006B9679 /* DDMIAuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMIAuthViewController.xib; sourceTree = "<group>"; };
+		901037541C7FE44D006B9679 /* DDMIImage.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DDMIImage.xcassets; sourceTree = "<group>"; };
+		901037551C7FE44D006B9679 /* DDMILoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMILoginViewController.xib; sourceTree = "<group>"; };
+		901037561C7FE44D006B9679 /* DDMIVerifyLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMIVerifyLoginViewController.xib; sourceTree = "<group>"; };
+		901037571C7FE44D006B9679 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DDMILocalizable.strings; sourceTree = "<group>"; };
+		901037581C7FE44D006B9679 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DDMILocalizable.strings"; sourceTree = "<group>"; };
+		901037591C7FE44D006B9679 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/DDMILocalizable.strings"; sourceTree = "<group>"; };
+		9010375A1C7FE44D006B9679 /* XMPassport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XMPassport.framework; sourceTree = "<group>"; };
 		9066F5121C7ED777002D236D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9066F5141C7ED77D002D236D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		90EE1D001C7DA61800102C29 /* DDMISDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDMISDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +98,7 @@
 				901037341C7F1240006B9679 /* libstdc++.tbd in Frameworks */,
 				901037321C7F068F006B9679 /* XMPassport.framework in Frameworks */,
 				9066F5151C7ED77D002D236D /* UIKit.framework in Frameworks */,
+				9010376C1C7FE44D006B9679 /* XMPassport.framework in Frameworks */,
 				9066F5131C7ED777002D236D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,47 +106,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		901036FA1C7F05E3006B9679 /* DDMISDK */ = {
+		901037351C7FE44D006B9679 /* DDMISDK */ = {
 			isa = PBXGroup;
 			children = (
-				901036FB1C7F05E3006B9679 /* DDMIAuthViewController.h */,
-				901036FC1C7F05E3006B9679 /* DDMIAuthViewController.m */,
-				901036FD1C7F05E3006B9679 /* DDMIBaseViewController.h */,
-				901036FE1C7F05E3006B9679 /* DDMIBaseViewController.m */,
-				901036FF1C7F05E3006B9679 /* DDMICircleIndicator.h */,
-				901037001C7F05E3006B9679 /* DDMICircleIndicator.m */,
-				901037011C7F05E3006B9679 /* DDMIDownLoader.h */,
-				901037021C7F05E3006B9679 /* DDMIDownLoader.m */,
-				901037031C7F05E3006B9679 /* DDMIHandler.h */,
-				901037041C7F05E3006B9679 /* DDMIHandler.m */,
-				901037051C7F05E3006B9679 /* DDMIDefines.h */,
-				901037061C7F05E3006B9679 /* DDMILoginViewController.h */,
-				901037071C7F05E3006B9679 /* DDMILoginViewController.m */,
-				901037081C7F05E3006B9679 /* DDMIRequestHandle.h */,
-				901037091C7F05E3006B9679 /* DDMIRequestHandle.m */,
-				9010370A1C7F05E3006B9679 /* DDMIUserInfoItem.h */,
-				9010370B1C7F05E3006B9679 /* DDMIUserInfoItem.m */,
-				9010370C1C7F05E3006B9679 /* DDMIVerifyLoginViewController.h */,
-				9010370D1C7F05E3006B9679 /* DDMIVerifyLoginViewController.m */,
-				9010370E1C7F05E3006B9679 /* Resource */,
-				901037181C7F05E3006B9679 /* UIButton+DDHitTestEdgeInsets.h */,
-				901037191C7F05E3006B9679 /* UIButton+DDHitTestEdgeInsets.m */,
-				9010371A1C7F05E3006B9679 /* UIView+DDAction.h */,
-				9010371B1C7F05E3006B9679 /* UIView+DDAction.m */,
-				9010371C1C7F05E3006B9679 /* UIView+DDFrame.h */,
-				9010371D1C7F05E3006B9679 /* UIView+DDFrame.m */,
+				901037361C7FE44D006B9679 /* Classes */,
+				901037501C7FE44D006B9679 /* Resource */,
+				9010375A1C7FE44D006B9679 /* XMPassport.framework */,
 			);
 			path = DDMISDK;
 			sourceTree = "<group>";
 		};
-		9010370E1C7F05E3006B9679 /* Resource */ = {
+		901037361C7FE44D006B9679 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9010370F1C7F05E3006B9679 /* DDMILocalizable.strings */,
-				901037111C7F05E3006B9679 /* DDMIAuthViewController.xib */,
-				901037121C7F05E3006B9679 /* DDMIImage.xcassets */,
-				901037131C7F05E3006B9679 /* DDMILoginViewController.xib */,
-				901037141C7F05E3006B9679 /* DDMIVerifyLoginViewController.xib */,
+				901037371C7FE44D006B9679 /* DDMIAuthViewController.h */,
+				901037381C7FE44D006B9679 /* DDMIAuthViewController.m */,
+				901037391C7FE44D006B9679 /* DDMIBaseViewController.h */,
+				9010373A1C7FE44D006B9679 /* DDMIBaseViewController.m */,
+				9010373B1C7FE44D006B9679 /* DDMICircleIndicator.h */,
+				9010373C1C7FE44D006B9679 /* DDMICircleIndicator.m */,
+				9010373D1C7FE44D006B9679 /* DDMIDefines.h */,
+				9010373E1C7FE44D006B9679 /* DDMIDownLoader.h */,
+				9010373F1C7FE44D006B9679 /* DDMIDownLoader.m */,
+				901037401C7FE44D006B9679 /* DDMIHandler.h */,
+				901037411C7FE44D006B9679 /* DDMIHandler.m */,
+				901037421C7FE44D006B9679 /* DDMILoginViewController.h */,
+				901037431C7FE44D006B9679 /* DDMILoginViewController.m */,
+				901037441C7FE44D006B9679 /* DDMIRequestHandle.h */,
+				901037451C7FE44D006B9679 /* DDMIRequestHandle.m */,
+				901037461C7FE44D006B9679 /* DDMIUserInfoItem.h */,
+				901037471C7FE44D006B9679 /* DDMIUserInfoItem.m */,
+				901037481C7FE44D006B9679 /* DDMIVerifyLoginViewController.h */,
+				901037491C7FE44D006B9679 /* DDMIVerifyLoginViewController.m */,
+				9010374A1C7FE44D006B9679 /* UIButton+DDHitTestEdgeInsets.h */,
+				9010374B1C7FE44D006B9679 /* UIButton+DDHitTestEdgeInsets.m */,
+				9010374C1C7FE44D006B9679 /* UIView+DDAction.h */,
+				9010374D1C7FE44D006B9679 /* UIView+DDAction.m */,
+				9010374E1C7FE44D006B9679 /* UIView+DDFrame.h */,
+				9010374F1C7FE44D006B9679 /* UIView+DDFrame.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		901037501C7FE44D006B9679 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				901037511C7FE44D006B9679 /* DDMILocalizable.strings */,
+				901037531C7FE44D006B9679 /* DDMIAuthViewController.xib */,
+				901037541C7FE44D006B9679 /* DDMIImage.xcassets */,
+				901037551C7FE44D006B9679 /* DDMILoginViewController.xib */,
+				901037561C7FE44D006B9679 /* DDMIVerifyLoginViewController.xib */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -151,9 +163,9 @@
 		90EE1CF71C7DA61700102C29 = {
 			isa = PBXGroup;
 			children = (
+				901037351C7FE44D006B9679 /* DDMISDK */,
 				901037331C7F1240006B9679 /* libstdc++.tbd */,
 				901037311C7F068F006B9679 /* XMPassport.framework */,
-				901036FA1C7F05E3006B9679 /* DDMISDK */,
 				9066F5141C7ED77D002D236D /* UIKit.framework */,
 				9066F5121C7ED777002D236D /* Foundation.framework */,
 				90EE1D021C7DA61800102C29 /* DDMISDKDemo */,
@@ -253,14 +265,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				901037291C7F05E3006B9679 /* DDMIAuthViewController.xib in Resources */,
-				9010372A1C7F05E3006B9679 /* DDMIImage.xcassets in Resources */,
-				9010372B1C7F05E3006B9679 /* DDMILoginViewController.xib in Resources */,
+				901037681C7FE44D006B9679 /* DDMIAuthViewController.xib in Resources */,
+				901037691C7FE44D006B9679 /* DDMIImage.xcassets in Resources */,
+				9010376A1C7FE44D006B9679 /* DDMILoginViewController.xib in Resources */,
 				90EE1D1E1C7DA64500102C29 /* DDViewController.xib in Resources */,
 				90EE1D131C7DA61800102C29 /* LaunchScreen.storyboard in Resources */,
 				90EE1D101C7DA61800102C29 /* Assets.xcassets in Resources */,
-				9010372C1C7F05E3006B9679 /* DDMIVerifyLoginViewController.xib in Resources */,
-				901037281C7F05E3006B9679 /* DDMILocalizable.strings in Resources */,
+				9010376B1C7FE44D006B9679 /* DDMIVerifyLoginViewController.xib in Resources */,
+				901037671C7FE44D006B9679 /* DDMILocalizable.strings in Resources */,
 				90EE1D0E1C7DA61800102C29 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,33 +285,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				90EE1D081C7DA61800102C29 /* AppDelegate.m in Sources */,
-				901037271C7F05E3006B9679 /* DDMIVerifyLoginViewController.m in Sources */,
+				901037631C7FE44D006B9679 /* DDMIVerifyLoginViewController.m in Sources */,
 				90EE1D1D1C7DA64500102C29 /* DDViewController.m in Sources */,
-				9010371F1C7F05E3006B9679 /* DDMIAuthViewController.m in Sources */,
-				901037251C7F05E3006B9679 /* DDMIRequestHandle.m in Sources */,
-				901037241C7F05E3006B9679 /* DDMILoginViewController.m in Sources */,
-				901037211C7F05E3006B9679 /* DDMICircleIndicator.m in Sources */,
-				901037231C7F05E3006B9679 /* DDMIHandler.m in Sources */,
-				901037261C7F05E3006B9679 /* DDMIUserInfoItem.m in Sources */,
-				901037221C7F05E3006B9679 /* DDMIDownLoader.m in Sources */,
+				9010375B1C7FE44D006B9679 /* DDMIAuthViewController.m in Sources */,
+				901037611C7FE44D006B9679 /* DDMIRequestHandle.m in Sources */,
+				901037601C7FE44D006B9679 /* DDMILoginViewController.m in Sources */,
+				9010375D1C7FE44D006B9679 /* DDMICircleIndicator.m in Sources */,
+				9010375F1C7FE44D006B9679 /* DDMIHandler.m in Sources */,
+				901037621C7FE44D006B9679 /* DDMIUserInfoItem.m in Sources */,
+				9010375E1C7FE44D006B9679 /* DDMIDownLoader.m in Sources */,
 				90EE1D051C7DA61800102C29 /* main.m in Sources */,
-				9010372F1C7F05E3006B9679 /* UIView+DDFrame.m in Sources */,
-				901037201C7F05E3006B9679 /* DDMIBaseViewController.m in Sources */,
-				9010372E1C7F05E3006B9679 /* UIView+DDAction.m in Sources */,
-				9010372D1C7F05E3006B9679 /* UIButton+DDHitTestEdgeInsets.m in Sources */,
+				901037661C7FE44D006B9679 /* UIView+DDFrame.m in Sources */,
+				9010375C1C7FE44D006B9679 /* DDMIBaseViewController.m in Sources */,
+				901037651C7FE44D006B9679 /* UIView+DDAction.m in Sources */,
+				901037641C7FE44D006B9679 /* UIButton+DDHitTestEdgeInsets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9010370F1C7F05E3006B9679 /* DDMILocalizable.strings */ = {
+		901037511C7FE44D006B9679 /* DDMILocalizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				901037101C7F05E3006B9679 /* Base */,
-				901037151C7F05E3006B9679 /* en */,
-				901037161C7F05E3006B9679 /* zh-Hans */,
-				901037171C7F05E3006B9679 /* zh-Hant */,
+				901037521C7FE44D006B9679 /* Base */,
+				901037571C7FE44D006B9679 /* en */,
+				901037581C7FE44D006B9679 /* zh-Hans */,
+				901037591C7FE44D006B9679 /* zh-Hant */,
 			);
 			name = DDMILocalizable.strings;
 			sourceTree = "<group>";
