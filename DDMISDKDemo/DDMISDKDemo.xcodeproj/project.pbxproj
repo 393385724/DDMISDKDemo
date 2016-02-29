@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89230CD4BDA541DAEFE1462C /* libPods-DDMISDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 622FB3E6F8A8EF10225DB18C /* libPods-DDMISDKDemo.a */; };
 		90D612461C83EEF200B768A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D612451C83EEF200B768A5 /* main.m */; };
 		90D612491C83EEF200B768A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D612481C83EEF200B768A5 /* AppDelegate.m */; };
 		90D6124F1C83EEF200B768A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D6124D1C83EEF200B768A5 /* Main.storyboard */; };
@@ -14,24 +15,12 @@
 		90D612541C83EEF200B768A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D612521C83EEF200B768A5 /* LaunchScreen.storyboard */; };
 		90D612961C83EF1F00B768A5 /* DDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D612941C83EF1F00B768A5 /* DDMainViewController.m */; };
 		90D612971C83EF1F00B768A5 /* DDMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90D612951C83EF1F00B768A5 /* DDMainViewController.xib */; };
-		90D613111C841AD000B768A5 /* DDMIAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D612F01C841AD000B768A5 /* DDMIAuthViewController.m */; };
-		90D613131C841AD000B768A5 /* DDMIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D612F31C841AD000B768A5 /* DDMIBaseViewController.m */; };
-		90D613141C841AD000B768A5 /* DDMICircleIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D612F51C841AD000B768A5 /* DDMICircleIndicator.m */; };
-		90D613151C841AD000B768A5 /* DDMIDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D612F81C841AD000B768A5 /* DDMIDownLoader.m */; };
-		90D613161C841AD000B768A5 /* DDMIHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D612FA1C841AD000B768A5 /* DDMIHandler.m */; };
-		90D613181C841AD000B768A5 /* DDMILoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D612FD1C841AD000B768A5 /* DDMILoginViewController.m */; };
-		90D6131A1C841AD000B768A5 /* DDMIRequestHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D613001C841AD000B768A5 /* DDMIRequestHandle.m */; };
-		90D6131B1C841AD000B768A5 /* DDMIUserInfoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D613021C841AD000B768A5 /* DDMIUserInfoItem.m */; };
-		90D6131C1C841AD000B768A5 /* DDMIVerifyLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D613041C841AD000B768A5 /* DDMIVerifyLoginViewController.m */; };
-		90D6131E1C841AD000B768A5 /* UIButton+DDHitTestEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D613081C841AD000B768A5 /* UIButton+DDHitTestEdgeInsets.m */; };
-		90D6131F1C841AD000B768A5 /* UIView+DDAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D6130A1C841AD000B768A5 /* UIView+DDAction.m */; };
-		90D613201C841AD000B768A5 /* UIView+DDFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D6130C1C841AD000B768A5 /* UIView+DDFrame.m */; };
-		90D6132A1C841B8300B768A5 /* DDMIResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 90D613291C841B8300B768A5 /* DDMIResource.bundle */; };
-		90D6132D1C841FB200B768A5 /* XMPassport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D6132B1C841D2500B768A5 /* XMPassport.framework */; };
-		90D6132E1C841FF900B768A5 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 90D612981C83F08F00B768A5 /* libstdc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		262C8D21A0A9E900FE61BA44 /* Pods-DDMISDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDMISDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDMISDKDemo/Pods-DDMISDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		622FB3E6F8A8EF10225DB18C /* libPods-DDMISDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DDMISDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB3D9B3D6C434C4A5D1D75B /* Pods-DDMISDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDMISDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDMISDKDemo/Pods-DDMISDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		90D612411C83EEF200B768A5 /* DDMISDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDMISDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D612451C83EEF200B768A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90D612471C83EEF200B768A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,34 +32,6 @@
 		90D612931C83EF1F00B768A5 /* DDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMainViewController.h; sourceTree = "<group>"; };
 		90D612941C83EF1F00B768A5 /* DDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMainViewController.m; sourceTree = "<group>"; };
 		90D612951C83EF1F00B768A5 /* DDMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMainViewController.xib; sourceTree = "<group>"; };
-		90D612981C83F08F00B768A5 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
-		90D612EF1C841AD000B768A5 /* DDMIAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIAuthViewController.h; sourceTree = "<group>"; };
-		90D612F01C841AD000B768A5 /* DDMIAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIAuthViewController.m; sourceTree = "<group>"; };
-		90D612F21C841AD000B768A5 /* DDMIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIBaseViewController.h; sourceTree = "<group>"; };
-		90D612F31C841AD000B768A5 /* DDMIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIBaseViewController.m; sourceTree = "<group>"; };
-		90D612F41C841AD000B768A5 /* DDMICircleIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMICircleIndicator.h; sourceTree = "<group>"; };
-		90D612F51C841AD000B768A5 /* DDMICircleIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMICircleIndicator.m; sourceTree = "<group>"; };
-		90D612F61C841AD000B768A5 /* DDMIDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIDefines.h; sourceTree = "<group>"; };
-		90D612F71C841AD000B768A5 /* DDMIDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIDownLoader.h; sourceTree = "<group>"; };
-		90D612F81C841AD000B768A5 /* DDMIDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIDownLoader.m; sourceTree = "<group>"; };
-		90D612F91C841AD000B768A5 /* DDMIHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIHandler.h; sourceTree = "<group>"; };
-		90D612FA1C841AD000B768A5 /* DDMIHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIHandler.m; sourceTree = "<group>"; };
-		90D612FC1C841AD000B768A5 /* DDMILoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMILoginViewController.h; sourceTree = "<group>"; };
-		90D612FD1C841AD000B768A5 /* DDMILoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMILoginViewController.m; sourceTree = "<group>"; };
-		90D612FF1C841AD000B768A5 /* DDMIRequestHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIRequestHandle.h; sourceTree = "<group>"; };
-		90D613001C841AD000B768A5 /* DDMIRequestHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIRequestHandle.m; sourceTree = "<group>"; };
-		90D613011C841AD000B768A5 /* DDMIUserInfoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIUserInfoItem.h; sourceTree = "<group>"; };
-		90D613021C841AD000B768A5 /* DDMIUserInfoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIUserInfoItem.m; sourceTree = "<group>"; };
-		90D613031C841AD000B768A5 /* DDMIVerifyLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIVerifyLoginViewController.h; sourceTree = "<group>"; };
-		90D613041C841AD000B768A5 /* DDMIVerifyLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIVerifyLoginViewController.m; sourceTree = "<group>"; };
-		90D613071C841AD000B768A5 /* UIButton+DDHitTestEdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DDHitTestEdgeInsets.h"; sourceTree = "<group>"; };
-		90D613081C841AD000B768A5 /* UIButton+DDHitTestEdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DDHitTestEdgeInsets.m"; sourceTree = "<group>"; };
-		90D613091C841AD000B768A5 /* UIView+DDAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DDAction.h"; sourceTree = "<group>"; };
-		90D6130A1C841AD000B768A5 /* UIView+DDAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DDAction.m"; sourceTree = "<group>"; };
-		90D6130B1C841AD000B768A5 /* UIView+DDFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DDFrame.h"; sourceTree = "<group>"; };
-		90D6130C1C841AD000B768A5 /* UIView+DDFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DDFrame.m"; sourceTree = "<group>"; };
-		90D613291C841B8300B768A5 /* DDMIResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DDMIResource.bundle; sourceTree = "<group>"; };
-		90D6132B1C841D2500B768A5 /* XMPassport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XMPassport.framework; path = ../DDMISDK/XMPassport.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,22 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90D6132E1C841FF900B768A5 /* libstdc++.tbd in Frameworks */,
-				90D6132D1C841FB200B768A5 /* XMPassport.framework in Frameworks */,
+				89230CD4BDA541DAEFE1462C /* libPods-DDMISDKDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5458446E1E46AD566A603F07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FB3D9B3D6C434C4A5D1D75B /* Pods-DDMISDKDemo.debug.xcconfig */,
+				262C8D21A0A9E900FE61BA44 /* Pods-DDMISDKDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DE2538519A7A6CB7EF38F07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				622FB3E6F8A8EF10225DB18C /* libPods-DDMISDKDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		90D612381C83EEF200B768A5 = {
 			isa = PBXGroup;
 			children = (
-				90D6132B1C841D2500B768A5 /* XMPassport.framework */,
-				90D612EC1C841AD000B768A5 /* DDMISDK */,
-				90D612981C83F08F00B768A5 /* libstdc++.tbd */,
 				90D612431C83EEF200B768A5 /* DDMISDKDemo */,
 				90D612421C83EEF200B768A5 /* Products */,
+				5458446E1E46AD566A603F07 /* Pods */,
+				7DE2538519A7A6CB7EF38F07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,40 +106,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		90D612EC1C841AD000B768A5 /* DDMISDK */ = {
-			isa = PBXGroup;
-			children = (
-				90D613291C841B8300B768A5 /* DDMIResource.bundle */,
-				90D612EF1C841AD000B768A5 /* DDMIAuthViewController.h */,
-				90D612F01C841AD000B768A5 /* DDMIAuthViewController.m */,
-				90D612F21C841AD000B768A5 /* DDMIBaseViewController.h */,
-				90D612F31C841AD000B768A5 /* DDMIBaseViewController.m */,
-				90D612F41C841AD000B768A5 /* DDMICircleIndicator.h */,
-				90D612F51C841AD000B768A5 /* DDMICircleIndicator.m */,
-				90D612F61C841AD000B768A5 /* DDMIDefines.h */,
-				90D612F71C841AD000B768A5 /* DDMIDownLoader.h */,
-				90D612F81C841AD000B768A5 /* DDMIDownLoader.m */,
-				90D612F91C841AD000B768A5 /* DDMIHandler.h */,
-				90D612FA1C841AD000B768A5 /* DDMIHandler.m */,
-				90D612FC1C841AD000B768A5 /* DDMILoginViewController.h */,
-				90D612FD1C841AD000B768A5 /* DDMILoginViewController.m */,
-				90D612FF1C841AD000B768A5 /* DDMIRequestHandle.h */,
-				90D613001C841AD000B768A5 /* DDMIRequestHandle.m */,
-				90D613011C841AD000B768A5 /* DDMIUserInfoItem.h */,
-				90D613021C841AD000B768A5 /* DDMIUserInfoItem.m */,
-				90D613031C841AD000B768A5 /* DDMIVerifyLoginViewController.h */,
-				90D613041C841AD000B768A5 /* DDMIVerifyLoginViewController.m */,
-				90D613071C841AD000B768A5 /* UIButton+DDHitTestEdgeInsets.h */,
-				90D613081C841AD000B768A5 /* UIButton+DDHitTestEdgeInsets.m */,
-				90D613091C841AD000B768A5 /* UIView+DDAction.h */,
-				90D6130A1C841AD000B768A5 /* UIView+DDAction.m */,
-				90D6130B1C841AD000B768A5 /* UIView+DDFrame.h */,
-				90D6130C1C841AD000B768A5 /* UIView+DDFrame.m */,
-			);
-			name = DDMISDK;
-			path = ../DDMISDK;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90D612581C83EEF200B768A5 /* Build configuration list for PBXNativeTarget "DDMISDKDemo" */;
 			buildPhases = (
+				B18B2BF5E7F7F6E8C887DBEB /* Check Pods Manifest.lock */,
 				90D6123D1C83EEF200B768A5 /* Sources */,
 				90D6123E1C83EEF200B768A5 /* Frameworks */,
 				90D6123F1C83EEF200B768A5 /* Resources */,
+				3974A8EE0827BFFDCBCD698C /* Embed Pods Frameworks */,
+				35F056D93CF8D275F08EDF2C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,7 +168,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90D6132A1C841B8300B768A5 /* DDMIResource.bundle in Resources */,
 				90D612541C83EEF200B768A5 /* LaunchScreen.storyboard in Resources */,
 				90D612511C83EEF200B768A5 /* Assets.xcassets in Resources */,
 				90D6124F1C83EEF200B768A5 /* Main.storyboard in Resources */,
@@ -233,26 +177,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35F056D93CF8D275F08EDF2C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDMISDKDemo/Pods-DDMISDKDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3974A8EE0827BFFDCBCD698C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDMISDKDemo/Pods-DDMISDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B18B2BF5E7F7F6E8C887DBEB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90D6123D1C83EEF200B768A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				90D612491C83EEF200B768A5 /* AppDelegate.m in Sources */,
-				90D6131C1C841AD000B768A5 /* DDMIVerifyLoginViewController.m in Sources */,
 				90D612461C83EEF200B768A5 /* main.m in Sources */,
-				90D613111C841AD000B768A5 /* DDMIAuthViewController.m in Sources */,
-				90D6131A1C841AD000B768A5 /* DDMIRequestHandle.m in Sources */,
-				90D613181C841AD000B768A5 /* DDMILoginViewController.m in Sources */,
-				90D613141C841AD000B768A5 /* DDMICircleIndicator.m in Sources */,
-				90D613161C841AD000B768A5 /* DDMIHandler.m in Sources */,
-				90D6131B1C841AD000B768A5 /* DDMIUserInfoItem.m in Sources */,
-				90D613151C841AD000B768A5 /* DDMIDownLoader.m in Sources */,
 				90D612961C83EF1F00B768A5 /* DDMainViewController.m in Sources */,
-				90D613201C841AD000B768A5 /* UIView+DDFrame.m in Sources */,
-				90D613131C841AD000B768A5 /* DDMIBaseViewController.m in Sources */,
-				90D6131F1C841AD000B768A5 /* UIView+DDAction.m in Sources */,
-				90D6131E1C841AD000B768A5 /* UIButton+DDHitTestEdgeInsets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +340,7 @@
 		};
 		90D612591C83EEF200B768A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB3D9B3D6C434C4A5D1D75B /* Pods-DDMISDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
@@ -377,6 +358,7 @@
 		};
 		90D6125A1C83EEF200B768A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 262C8D21A0A9E900FE61BA44 /* Pods-DDMISDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;

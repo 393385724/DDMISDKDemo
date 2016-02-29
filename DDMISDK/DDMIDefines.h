@@ -9,11 +9,6 @@
 #ifndef DDMIDefines_h
 #define DDMIDefines_h
 
-typedef NS_ENUM(NSUInteger, DDMIAuthResponseType) {
-    DDMIAuthResponseTypeCode, //Authorization Code Flow
-    DDMIAuthResponseTypeToken, //Implicit Flow
-};
-
 #ifndef MIResourceBundlePath
 #define MIResourceBundlePath \
 [[NSBundle mainBundle] pathForResource: @ "DDMIResource" ofType :@ "bundle"]

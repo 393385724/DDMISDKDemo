@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
   s.name             = "DDMISDK"  
-  s.version          = "1.0.0"  
+  s.version          = "1.0.1"  
   s.summary          = "mi auth sdk with ui"  
   s.homepage         = "https://github.com/393385724/DDMISDKDemo"  
   s.license          = 'MIT'  
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true  
 
   s.ios.source_files = 'DDMISDK/*.{h,m}'
-  s.public_header_files = 'DDMISDK/DDMIHandler.h','DDMISDK/DDMIUserInfoItem.h','DDMISDK/DDMIHandler.h'
+  s.public_header_files = 'DDMISDK/DDMIHandler.h','DDMISDK/DDMIUserInfoItem.h','DDMISDK/DDMITypeDefines.h'
   s.resource = 'DDMISDK/DDMIResource.bundle'
   
   s.ios.vendored_frameworks = 'DDMISDK/*.framework'

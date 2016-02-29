@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 #import "DDMIUserInfoItem.h"
-#import "DDMIDefines.h"
+#import "DDMITypeDefines.h"
 
 @class UIViewController;
 

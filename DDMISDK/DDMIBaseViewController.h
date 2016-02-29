@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "DDMIDefines.h"
+#import "DDMITypeDefines.h"
 
 @protocol DDMICancelDelegate <NSObject>
 

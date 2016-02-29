@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios,'7.0'
+
+workspace 'DDMISDKDemo'
+
+target :DDMISDKDemo do
+  xcodeproj 'DDMISDKDemo'
+    pod 'DDMISDK', '~> 1.0.0'
+end
