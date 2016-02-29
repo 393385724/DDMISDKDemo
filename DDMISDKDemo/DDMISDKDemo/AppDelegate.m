@@ -2,12 +2,12 @@
 //  AppDelegate.m
 //  DDMISDKDemo
 //
-//  Created by lilingang on 16/2/24.
+//  Created by lilingang on 16/2/29.
 //  Copyright © 2016年 LiLingang. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "DDViewController.h"
+#import "DDMainViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,13 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
-   NSString *path =  [[NSBundle mainBundle] pathForResource:@"DDMIResource" ofType:@"bundle"];
-    
-    DDViewController *viewController = [[DDViewController alloc] init];
+    DDMainViewController *viewController = [[DDMainViewController alloc] init];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:viewController];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = navigationController;
+    self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

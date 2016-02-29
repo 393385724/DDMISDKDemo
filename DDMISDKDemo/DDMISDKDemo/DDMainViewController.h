@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  DDMainViewController.h
 //  DDMISDKDemo
 //
 //  Created by lilingang on 16/2/29.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface DDMainViewController : UIViewController
 
 @end
-

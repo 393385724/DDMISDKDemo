@@ -45,16 +45,9 @@
 			<string>xiaomi</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>mi2882303761517373163</string>
+				<string>mi****************</string>
 			</array>
 		</dict>
 	</array>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-		<key>NSExceptionDomains</key>
-		<dict/>
-	</dict>
 </dict>
 </plist>
