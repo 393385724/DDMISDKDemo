@@ -17,6 +17,7 @@
 @interface DDMILoginViewController ()<UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UIView *contentView;
+@property (weak, nonatomic) IBOutlet UIImageView *logoImageView;
 @property (weak, nonatomic) IBOutlet UILabel *tipLabel;
 
 @property (weak, nonatomic) IBOutlet UIImageView *inputbackImageView;
@@ -42,7 +43,7 @@
 @implementation DDMILoginViewController
 
 - (instancetype)initWithRequestHandle:(DDMIRequestHandle *)requestHandle{
-    self = [super initWithNibName:@"DDMILoginViewController" bundle:nil];
+    self = [super initWithNibName:@"DDMILoginViewController" bundle:MIResourceBundle];
     if (self) {
         self.requestHandle = requestHandle;
         self.requestHandle.delegate = self;
@@ -69,6 +70,8 @@
     [self.view addGestureRecognizer:swipeRecognizer];
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillChangeFrameNotification:) name:UIKeyboardWillChangeFrameNotification object:nil];
+    
+    self.logoImageView.image = MIImage(@"dd_mi_logo_icon");
     
     self.title = MILocal(@"登录");
     self.tipLabel.text = MILocal(@"请使用小米账号登录");
@@ -141,7 +144,7 @@
         
         self.contentView.ddHeight = 337;
         self.inputbackImageView.ddHeight = 112;
-        self.inputbackImageView.image = [UIImage imageNamed:@"dd_input_bg"];
+        self.inputbackImageView.image = MIImage(@"dd_input_bg");
     }
     else {
         self.codeTextField.hidden = NO;
@@ -151,7 +154,7 @@
         
         self.contentView.ddHeight = 387;
         self.inputbackImageView.ddHeight = 162;
-        self.inputbackImageView.image = [UIImage imageNamed:@"dd_input_bg_verification"];
+        self.inputbackImageView.image = MIImage(@"dd_input_bg_verification");
     }
     self.contentViewHeightConstraint.constant = self.contentView.ddHeight;
     self.inputContentViewHeightConstraint.constant = self.inputbackImageView.ddHeight;

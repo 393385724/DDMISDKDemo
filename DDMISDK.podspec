@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.ios.source_files = 'DDMISDK/*.{h,m}'
   s.public_header_files = 'DDMISDK/DDMIHandler.h','DDMISDK/DDMIUserInfoItem.h','DDMISDK/DDMIHandler.h'
-  s.ios.resources = ['DDMISDK/*.xib','DDMISDK/*.xcassets','DDMISDK/*.lproj']
+  s.resource = 'DDMISDK/DDMIResource.bundle'
   
   s.ios.vendored_frameworks = 'DDMISDK/*.framework'
   s.libraries = 'stdc++'  

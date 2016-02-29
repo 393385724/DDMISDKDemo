@@ -29,7 +29,7 @@ NSString * const DDMIUserAuthorization = @"https://account.xiaomi.com/oauth2/use
 @implementation DDMIAuthViewController
 
 - (instancetype)initWithAppid:(NSString *)appID redirectUrl:(NSString *)redirectUrl{
-    self = [super initWithNibName:@"DDMIAuthViewController" bundle:nil];
+    self = [super initWithNibName:@"DDMIAuthViewController" bundle:MIResourceBundle];
     if (self) {
         self.appID = appID;
         self.redirectUrl = redirectUrl;

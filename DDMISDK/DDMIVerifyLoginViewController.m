@@ -17,6 +17,7 @@
 @interface DDMIVerifyLoginViewController ()<UITextFieldDelegate,DDMIRequestHandleDelegate>
 @property (weak, nonatomic) IBOutlet UIView *contentView;
 @property (weak, nonatomic) IBOutlet UILabel *tipLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *inputBackImageView;
 @property (weak, nonatomic) IBOutlet UITextField *codeTextField;
 @property (weak, nonatomic) IBOutlet UILabel *trustLabel;
 @property (weak, nonatomic) IBOutlet UIButton *trustButton;
@@ -36,7 +37,7 @@
 @implementation DDMIVerifyLoginViewController
 
 - (instancetype)initWithRequestHandle:(DDMIRequestHandle *)requestHandle{
-    self = [super initWithNibName:@"DDMIVerifyLoginViewController" bundle:nil];
+    self = [super initWithNibName:@"DDMIVerifyLoginViewController" bundle:MIResourceBundle];
     if (self) {
         self.requestHandle = requestHandle;
         self.requestHandle.delegate = self;
@@ -71,6 +72,8 @@
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillChangeFrameNotification:) name:UIKeyboardWillChangeFrameNotification object:nil];
     
+    self.inputBackImageView.image = MIImage(@"dd_single_input_bg");
+    
     self.tipLabel.text = MILocal(@"一个账号,玩转所有小米服务!");
     self.codeTextField.placeholder = MILocal(@"请输入6位动态口令");
     self.trustLabel.text = MILocal(@"这是我的私人设备,以后登录无需输入口令");
@@ -91,7 +94,7 @@
 - (IBAction)trustButtonAction:(id)sender {
     self.isTrustDevice = !self.isTrustDevice;
     NSString *imageName = self.isTrustDevice ? @"dd_button_trust_icon" : @"dd_button_untrust_icon";
-    [self.trustButton setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
+    [self.trustButton setImage:MIImage(imageName) forState:UIControlStateNormal];
 }
 
 - (IBAction)confirmButtonAction:(id)sender {

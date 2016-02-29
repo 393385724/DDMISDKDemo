@@ -7,6 +7,7 @@
 //
 
 #import "DDMICircleIndicator.h"
+#import "DDMIDefines.h"
 
 @interface DDMICircleIndicator ()
 
@@ -42,7 +43,7 @@
     self.backgroundColor = [UIColor clearColor];
     self.imageView = [[UIImageView alloc] initWithFrame:self.bounds];
     self.imageView.autoresizingMask = UIViewAutoresizingFlexibleHeight|UIViewAutoresizingFlexibleWidth;
-    self.imageView.image = [UIImage imageNamed:imageName];
+    self.imageView.image = MIImage(imageName);
     [self addSubview:self.imageView];
 }
 

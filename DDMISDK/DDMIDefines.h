@@ -14,9 +14,25 @@ typedef NS_ENUM(NSUInteger, DDMIAuthResponseType) {
     DDMIAuthResponseTypeToken, //Implicit Flow
 };
 
+#ifndef MIResourceBundlePath
+#define MIResourceBundlePath \
+[[NSBundle mainBundle] pathForResource: @ "DDMIResource" ofType :@ "bundle"]
+#endif
+
+#ifndef MIResourceBundle
+#define MIResourceBundle \
+[NSBundle bundleWithPath:MIResourceBundlePath]
+#endif
+
 #ifndef MILocal
 #define MILocal(s) \
-[[NSBundle mainBundle] localizedStringForKey:s value:s table:@"DDMILocalizable"]
+[MIResourceBundle localizedStringForKey:s value:s table:@"DDMILocalizable"]
 #endif
+
+#ifndef MIImage
+#define MIImage(s) \
+[UIImage imageWithContentsOfFile:[MIResourceBundlePath stringByAppendingPathComponent:s]]
+#endif
+
 
 #endif /* DDMIDefines_h */
