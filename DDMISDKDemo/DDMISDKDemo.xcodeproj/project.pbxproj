@@ -7,118 +7,175 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		89230CD4BDA541DAEFE1462C /* libPods-DDMISDKDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 622FB3E6F8A8EF10225DB18C /* libPods-DDMISDKDemo.a */; };
-		90D612461C83EEF200B768A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D612451C83EEF200B768A5 /* main.m */; };
-		90D612491C83EEF200B768A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D612481C83EEF200B768A5 /* AppDelegate.m */; };
-		90D6124F1C83EEF200B768A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D6124D1C83EEF200B768A5 /* Main.storyboard */; };
-		90D612511C83EEF200B768A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D612501C83EEF200B768A5 /* Assets.xcassets */; };
-		90D612541C83EEF200B768A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D612521C83EEF200B768A5 /* LaunchScreen.storyboard */; };
-		90D612961C83EF1F00B768A5 /* DDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90D612941C83EF1F00B768A5 /* DDMainViewController.m */; };
-		90D612971C83EF1F00B768A5 /* DDMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90D612951C83EF1F00B768A5 /* DDMainViewController.xib */; };
+		905AB86D1C84315D004BB94C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB86C1C84315D004BB94C /* main.m */; };
+		905AB8761C84315D004BB94C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905AB8741C84315D004BB94C /* Main.storyboard */; };
+		905AB8781C84315D004BB94C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 905AB8771C84315D004BB94C /* Assets.xcassets */; };
+		905AB87B1C84315D004BB94C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905AB8791C84315D004BB94C /* LaunchScreen.storyboard */; };
+		905AB89F1C843168004BB94C /* DDMIAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB8841C843168004BB94C /* DDMIAuthViewController.m */; };
+		905AB8A01C843168004BB94C /* DDMIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB8861C843168004BB94C /* DDMIBaseViewController.m */; };
+		905AB8A11C843168004BB94C /* DDMICircleIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB8881C843168004BB94C /* DDMICircleIndicator.m */; };
+		905AB8A21C843168004BB94C /* DDMIDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB88B1C843168004BB94C /* DDMIDownLoader.m */; };
+		905AB8A31C843168004BB94C /* DDMIHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB88D1C843168004BB94C /* DDMIHandler.m */; };
+		905AB8A41C843168004BB94C /* DDMILoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB88F1C843168004BB94C /* DDMILoginViewController.m */; };
+		905AB8A51C843168004BB94C /* DDMIRequestHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB8911C843168004BB94C /* DDMIRequestHandle.m */; };
+		905AB8A61C843168004BB94C /* DDMIResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 905AB8921C843168004BB94C /* DDMIResource.bundle */; };
+		905AB8A71C843168004BB94C /* DDMIUserInfoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB8951C843168004BB94C /* DDMIUserInfoItem.m */; };
+		905AB8A81C843168004BB94C /* DDMIVerifyLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB8971C843168004BB94C /* DDMIVerifyLoginViewController.m */; };
+		905AB8A91C843168004BB94C /* UIButton+DDHitTestEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB8991C843168004BB94C /* UIButton+DDHitTestEdgeInsets.m */; };
+		905AB8AA1C843168004BB94C /* UIView+DDAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB89B1C843168004BB94C /* UIView+DDAction.m */; };
+		905AB8AB1C843168004BB94C /* UIView+DDFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB89D1C843168004BB94C /* UIView+DDFrame.m */; };
+		905AB8AC1C843168004BB94C /* XMPassport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905AB89E1C843168004BB94C /* XMPassport.framework */; };
+		905AB8AE1C8431A2004BB94C /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 905AB8AD1C8431A2004BB94C /* libstdc++.tbd */; };
+		905AB8B41C8431CD004BB94C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB8B01C8431CD004BB94C /* AppDelegate.m */; };
+		905AB8B51C8431CD004BB94C /* DDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB8B21C8431CD004BB94C /* DDMainViewController.m */; };
+		905AB8B61C8431CD004BB94C /* DDMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905AB8B31C8431CD004BB94C /* DDMainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		262C8D21A0A9E900FE61BA44 /* Pods-DDMISDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDMISDKDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDMISDKDemo/Pods-DDMISDKDemo.release.xcconfig"; sourceTree = "<group>"; };
-		622FB3E6F8A8EF10225DB18C /* libPods-DDMISDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DDMISDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6FB3D9B3D6C434C4A5D1D75B /* Pods-DDMISDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDMISDKDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDMISDKDemo/Pods-DDMISDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		90D612411C83EEF200B768A5 /* DDMISDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDMISDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		90D612451C83EEF200B768A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		90D612471C83EEF200B768A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		90D612481C83EEF200B768A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		90D6124E1C83EEF200B768A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		90D612501C83EEF200B768A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		90D612531C83EEF200B768A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		90D612551C83EEF200B768A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90D612931C83EF1F00B768A5 /* DDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMainViewController.h; sourceTree = "<group>"; };
-		90D612941C83EF1F00B768A5 /* DDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMainViewController.m; sourceTree = "<group>"; };
-		90D612951C83EF1F00B768A5 /* DDMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMainViewController.xib; sourceTree = "<group>"; };
+		905AB8681C84315D004BB94C /* DDMISDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDMISDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		905AB86C1C84315D004BB94C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		905AB8751C84315D004BB94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		905AB8771C84315D004BB94C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		905AB87A1C84315D004BB94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		905AB87C1C84315D004BB94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		905AB8831C843168004BB94C /* DDMIAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIAuthViewController.h; sourceTree = "<group>"; };
+		905AB8841C843168004BB94C /* DDMIAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIAuthViewController.m; sourceTree = "<group>"; };
+		905AB8851C843168004BB94C /* DDMIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIBaseViewController.h; sourceTree = "<group>"; };
+		905AB8861C843168004BB94C /* DDMIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIBaseViewController.m; sourceTree = "<group>"; };
+		905AB8871C843168004BB94C /* DDMICircleIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMICircleIndicator.h; sourceTree = "<group>"; };
+		905AB8881C843168004BB94C /* DDMICircleIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMICircleIndicator.m; sourceTree = "<group>"; };
+		905AB8891C843168004BB94C /* DDMIDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIDefines.h; sourceTree = "<group>"; };
+		905AB88A1C843168004BB94C /* DDMIDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIDownLoader.h; sourceTree = "<group>"; };
+		905AB88B1C843168004BB94C /* DDMIDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIDownLoader.m; sourceTree = "<group>"; };
+		905AB88C1C843168004BB94C /* DDMIHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIHandler.h; sourceTree = "<group>"; };
+		905AB88D1C843168004BB94C /* DDMIHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIHandler.m; sourceTree = "<group>"; };
+		905AB88E1C843168004BB94C /* DDMILoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMILoginViewController.h; sourceTree = "<group>"; };
+		905AB88F1C843168004BB94C /* DDMILoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMILoginViewController.m; sourceTree = "<group>"; };
+		905AB8901C843168004BB94C /* DDMIRequestHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIRequestHandle.h; sourceTree = "<group>"; };
+		905AB8911C843168004BB94C /* DDMIRequestHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIRequestHandle.m; sourceTree = "<group>"; };
+		905AB8921C843168004BB94C /* DDMIResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DDMIResource.bundle; sourceTree = "<group>"; };
+		905AB8931C843168004BB94C /* DDMITypeDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMITypeDefines.h; sourceTree = "<group>"; };
+		905AB8941C843168004BB94C /* DDMIUserInfoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIUserInfoItem.h; sourceTree = "<group>"; };
+		905AB8951C843168004BB94C /* DDMIUserInfoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIUserInfoItem.m; sourceTree = "<group>"; };
+		905AB8961C843168004BB94C /* DDMIVerifyLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIVerifyLoginViewController.h; sourceTree = "<group>"; };
+		905AB8971C843168004BB94C /* DDMIVerifyLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIVerifyLoginViewController.m; sourceTree = "<group>"; };
+		905AB8981C843168004BB94C /* UIButton+DDHitTestEdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DDHitTestEdgeInsets.h"; sourceTree = "<group>"; };
+		905AB8991C843168004BB94C /* UIButton+DDHitTestEdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DDHitTestEdgeInsets.m"; sourceTree = "<group>"; };
+		905AB89A1C843168004BB94C /* UIView+DDAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DDAction.h"; sourceTree = "<group>"; };
+		905AB89B1C843168004BB94C /* UIView+DDAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DDAction.m"; sourceTree = "<group>"; };
+		905AB89C1C843168004BB94C /* UIView+DDFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DDFrame.h"; sourceTree = "<group>"; };
+		905AB89D1C843168004BB94C /* UIView+DDFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DDFrame.m"; sourceTree = "<group>"; };
+		905AB89E1C843168004BB94C /* XMPassport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XMPassport.framework; sourceTree = "<group>"; };
+		905AB8AD1C8431A2004BB94C /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		905AB8AF1C8431CD004BB94C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../../../../.Trash/DDMISDKDemo/DDMISDKDemo/AppDelegate.h; sourceTree = "<group>"; };
+		905AB8B01C8431CD004BB94C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../../../../.Trash/DDMISDKDemo/DDMISDKDemo/AppDelegate.m; sourceTree = "<group>"; };
+		905AB8B11C8431CD004BB94C /* DDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDMainViewController.h; path = ../../../../../.Trash/DDMISDKDemo/DDMISDKDemo/DDMainViewController.h; sourceTree = "<group>"; };
+		905AB8B21C8431CD004BB94C /* DDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDMainViewController.m; path = ../../../../../.Trash/DDMISDKDemo/DDMISDKDemo/DDMainViewController.m; sourceTree = "<group>"; };
+		905AB8B31C8431CD004BB94C /* DDMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DDMainViewController.xib; path = ../../../../../.Trash/DDMISDKDemo/DDMISDKDemo/DDMainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		90D6123E1C83EEF200B768A5 /* Frameworks */ = {
+		905AB8651C84315D004BB94C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89230CD4BDA541DAEFE1462C /* libPods-DDMISDKDemo.a in Frameworks */,
+				905AB8AE1C8431A2004BB94C /* libstdc++.tbd in Frameworks */,
+				905AB8AC1C843168004BB94C /* XMPassport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5458446E1E46AD566A603F07 /* Pods */ = {
+		905AB85F1C84315D004BB94C = {
 			isa = PBXGroup;
 			children = (
-				6FB3D9B3D6C434C4A5D1D75B /* Pods-DDMISDKDemo.debug.xcconfig */,
-				262C8D21A0A9E900FE61BA44 /* Pods-DDMISDKDemo.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		7DE2538519A7A6CB7EF38F07 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				622FB3E6F8A8EF10225DB18C /* libPods-DDMISDKDemo.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		90D612381C83EEF200B768A5 = {
-			isa = PBXGroup;
-			children = (
-				90D612431C83EEF200B768A5 /* DDMISDKDemo */,
-				90D612421C83EEF200B768A5 /* Products */,
-				5458446E1E46AD566A603F07 /* Pods */,
-				7DE2538519A7A6CB7EF38F07 /* Frameworks */,
+				905AB8AD1C8431A2004BB94C /* libstdc++.tbd */,
+				905AB8821C843168004BB94C /* DDMISDK */,
+				905AB86A1C84315D004BB94C /* DDMISDKDemo */,
+				905AB8691C84315D004BB94C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		90D612421C83EEF200B768A5 /* Products */ = {
+		905AB8691C84315D004BB94C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				90D612411C83EEF200B768A5 /* DDMISDKDemo.app */,
+				905AB8681C84315D004BB94C /* DDMISDKDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		90D612431C83EEF200B768A5 /* DDMISDKDemo */ = {
+		905AB86A1C84315D004BB94C /* DDMISDKDemo */ = {
 			isa = PBXGroup;
 			children = (
-				90D612471C83EEF200B768A5 /* AppDelegate.h */,
-				90D612481C83EEF200B768A5 /* AppDelegate.m */,
-				90D612931C83EF1F00B768A5 /* DDMainViewController.h */,
-				90D612941C83EF1F00B768A5 /* DDMainViewController.m */,
-				90D612951C83EF1F00B768A5 /* DDMainViewController.xib */,
-				90D6124D1C83EEF200B768A5 /* Main.storyboard */,
-				90D612501C83EEF200B768A5 /* Assets.xcassets */,
-				90D612521C83EEF200B768A5 /* LaunchScreen.storyboard */,
-				90D612551C83EEF200B768A5 /* Info.plist */,
-				90D612441C83EEF200B768A5 /* Supporting Files */,
+				905AB8AF1C8431CD004BB94C /* AppDelegate.h */,
+				905AB8B01C8431CD004BB94C /* AppDelegate.m */,
+				905AB8B11C8431CD004BB94C /* DDMainViewController.h */,
+				905AB8B21C8431CD004BB94C /* DDMainViewController.m */,
+				905AB8B31C8431CD004BB94C /* DDMainViewController.xib */,
+				905AB8741C84315D004BB94C /* Main.storyboard */,
+				905AB8771C84315D004BB94C /* Assets.xcassets */,
+				905AB8791C84315D004BB94C /* LaunchScreen.storyboard */,
+				905AB87C1C84315D004BB94C /* Info.plist */,
+				905AB86B1C84315D004BB94C /* Supporting Files */,
 			);
 			path = DDMISDKDemo;
 			sourceTree = "<group>";
 		};
-		90D612441C83EEF200B768A5 /* Supporting Files */ = {
+		905AB86B1C84315D004BB94C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				90D612451C83EEF200B768A5 /* main.m */,
+				905AB86C1C84315D004BB94C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		905AB8821C843168004BB94C /* DDMISDK */ = {
+			isa = PBXGroup;
+			children = (
+				905AB8831C843168004BB94C /* DDMIAuthViewController.h */,
+				905AB8841C843168004BB94C /* DDMIAuthViewController.m */,
+				905AB8851C843168004BB94C /* DDMIBaseViewController.h */,
+				905AB8861C843168004BB94C /* DDMIBaseViewController.m */,
+				905AB8871C843168004BB94C /* DDMICircleIndicator.h */,
+				905AB8881C843168004BB94C /* DDMICircleIndicator.m */,
+				905AB8891C843168004BB94C /* DDMIDefines.h */,
+				905AB88A1C843168004BB94C /* DDMIDownLoader.h */,
+				905AB88B1C843168004BB94C /* DDMIDownLoader.m */,
+				905AB88C1C843168004BB94C /* DDMIHandler.h */,
+				905AB88D1C843168004BB94C /* DDMIHandler.m */,
+				905AB88E1C843168004BB94C /* DDMILoginViewController.h */,
+				905AB88F1C843168004BB94C /* DDMILoginViewController.m */,
+				905AB8901C843168004BB94C /* DDMIRequestHandle.h */,
+				905AB8911C843168004BB94C /* DDMIRequestHandle.m */,
+				905AB8921C843168004BB94C /* DDMIResource.bundle */,
+				905AB8931C843168004BB94C /* DDMITypeDefines.h */,
+				905AB8941C843168004BB94C /* DDMIUserInfoItem.h */,
+				905AB8951C843168004BB94C /* DDMIUserInfoItem.m */,
+				905AB8961C843168004BB94C /* DDMIVerifyLoginViewController.h */,
+				905AB8971C843168004BB94C /* DDMIVerifyLoginViewController.m */,
+				905AB8981C843168004BB94C /* UIButton+DDHitTestEdgeInsets.h */,
+				905AB8991C843168004BB94C /* UIButton+DDHitTestEdgeInsets.m */,
+				905AB89A1C843168004BB94C /* UIView+DDAction.h */,
+				905AB89B1C843168004BB94C /* UIView+DDAction.m */,
+				905AB89C1C843168004BB94C /* UIView+DDFrame.h */,
+				905AB89D1C843168004BB94C /* UIView+DDFrame.m */,
+				905AB89E1C843168004BB94C /* XMPassport.framework */,
+			);
+			name = DDMISDK;
+			path = ../DDMISDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		90D612401C83EEF200B768A5 /* DDMISDKDemo */ = {
+		905AB8671C84315D004BB94C /* DDMISDKDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90D612581C83EEF200B768A5 /* Build configuration list for PBXNativeTarget "DDMISDKDemo" */;
+			buildConfigurationList = 905AB87F1C84315D004BB94C /* Build configuration list for PBXNativeTarget "DDMISDKDemo" */;
 			buildPhases = (
-				B18B2BF5E7F7F6E8C887DBEB /* Check Pods Manifest.lock */,
-				90D6123D1C83EEF200B768A5 /* Sources */,
-				90D6123E1C83EEF200B768A5 /* Frameworks */,
-				90D6123F1C83EEF200B768A5 /* Resources */,
-				3974A8EE0827BFFDCBCD698C /* Embed Pods Frameworks */,
-				35F056D93CF8D275F08EDF2C /* Copy Pods Resources */,
+				905AB8641C84315D004BB94C /* Sources */,
+				905AB8651C84315D004BB94C /* Frameworks */,
+				905AB8661C84315D004BB94C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -126,131 +183,94 @@
 			);
 			name = DDMISDKDemo;
 			productName = DDMISDKDemo;
-			productReference = 90D612411C83EEF200B768A5 /* DDMISDKDemo.app */;
+			productReference = 905AB8681C84315D004BB94C /* DDMISDKDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		90D612391C83EEF200B768A5 /* Project object */ = {
+		905AB8601C84315D004BB94C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = LiLingang;
 				TargetAttributes = {
-					90D612401C83EEF200B768A5 = {
+					905AB8671C84315D004BB94C = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 90D6123C1C83EEF200B768A5 /* Build configuration list for PBXProject "DDMISDKDemo" */;
+			buildConfigurationList = 905AB8631C84315D004BB94C /* Build configuration list for PBXProject "DDMISDKDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
-				"zh-Hans",
-				"zh-Hant",
 			);
-			mainGroup = 90D612381C83EEF200B768A5;
-			productRefGroup = 90D612421C83EEF200B768A5 /* Products */;
+			mainGroup = 905AB85F1C84315D004BB94C;
+			productRefGroup = 905AB8691C84315D004BB94C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90D612401C83EEF200B768A5 /* DDMISDKDemo */,
+				905AB8671C84315D004BB94C /* DDMISDKDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		90D6123F1C83EEF200B768A5 /* Resources */ = {
+		905AB8661C84315D004BB94C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90D612541C83EEF200B768A5 /* LaunchScreen.storyboard in Resources */,
-				90D612511C83EEF200B768A5 /* Assets.xcassets in Resources */,
-				90D6124F1C83EEF200B768A5 /* Main.storyboard in Resources */,
-				90D612971C83EF1F00B768A5 /* DDMainViewController.xib in Resources */,
+				905AB8B61C8431CD004BB94C /* DDMainViewController.xib in Resources */,
+				905AB87B1C84315D004BB94C /* LaunchScreen.storyboard in Resources */,
+				905AB8A61C843168004BB94C /* DDMIResource.bundle in Resources */,
+				905AB8781C84315D004BB94C /* Assets.xcassets in Resources */,
+				905AB8761C84315D004BB94C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		35F056D93CF8D275F08EDF2C /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDMISDKDemo/Pods-DDMISDKDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3974A8EE0827BFFDCBCD698C /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DDMISDKDemo/Pods-DDMISDKDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B18B2BF5E7F7F6E8C887DBEB /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		90D6123D1C83EEF200B768A5 /* Sources */ = {
+		905AB8641C84315D004BB94C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90D612491C83EEF200B768A5 /* AppDelegate.m in Sources */,
-				90D612461C83EEF200B768A5 /* main.m in Sources */,
-				90D612961C83EF1F00B768A5 /* DDMainViewController.m in Sources */,
+				905AB8A81C843168004BB94C /* DDMIVerifyLoginViewController.m in Sources */,
+				905AB89F1C843168004BB94C /* DDMIAuthViewController.m in Sources */,
+				905AB8A51C843168004BB94C /* DDMIRequestHandle.m in Sources */,
+				905AB8A41C843168004BB94C /* DDMILoginViewController.m in Sources */,
+				905AB8A11C843168004BB94C /* DDMICircleIndicator.m in Sources */,
+				905AB8A31C843168004BB94C /* DDMIHandler.m in Sources */,
+				905AB8A71C843168004BB94C /* DDMIUserInfoItem.m in Sources */,
+				905AB8A21C843168004BB94C /* DDMIDownLoader.m in Sources */,
+				905AB86D1C84315D004BB94C /* main.m in Sources */,
+				905AB8AB1C843168004BB94C /* UIView+DDFrame.m in Sources */,
+				905AB8A01C843168004BB94C /* DDMIBaseViewController.m in Sources */,
+				905AB8AA1C843168004BB94C /* UIView+DDAction.m in Sources */,
+				905AB8B51C8431CD004BB94C /* DDMainViewController.m in Sources */,
+				905AB8A91C843168004BB94C /* UIButton+DDHitTestEdgeInsets.m in Sources */,
+				905AB8B41C8431CD004BB94C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		90D6124D1C83EEF200B768A5 /* Main.storyboard */ = {
+		905AB8741C84315D004BB94C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				90D6124E1C83EEF200B768A5 /* Base */,
+				905AB8751C84315D004BB94C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		90D612521C83EEF200B768A5 /* LaunchScreen.storyboard */ = {
+		905AB8791C84315D004BB94C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				90D612531C83EEF200B768A5 /* Base */,
+				905AB87A1C84315D004BB94C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -258,7 +278,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		90D612561C83EEF200B768A5 /* Debug */ = {
+		905AB87D1C84315D004BB94C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -301,7 +321,7 @@
 			};
 			name = Debug;
 		};
-		90D612571C83EEF200B768A5 /* Release */ = {
+		905AB87E1C84315D004BB94C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -338,36 +358,26 @@
 			};
 			name = Release;
 		};
-		90D612591C83EEF200B768A5 /* Debug */ = {
+		905AB8801C84315D004BB94C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FB3D9B3D6C434C4A5D1D75B /* Pods-DDMISDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/lilingang/Desktop/DDProject/DDMISDKDemo/DDMISDK,
-				);
+				FRAMEWORK_SEARCH_PATHS = /Users/lilingang/Desktop/DDProject/DDMISDKDemo/DDMISDK;
 				INFOPLIST_FILE = DDMISDKDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DD.DDMISDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		90D6125A1C83EEF200B768A5 /* Release */ = {
+		905AB8811C84315D004BB94C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 262C8D21A0A9E900FE61BA44 /* Pods-DDMISDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/lilingang/Desktop/DDProject/DDMISDKDemo/DDMISDK,
-				);
+				FRAMEWORK_SEARCH_PATHS = /Users/lilingang/Desktop/DDProject/DDMISDKDemo/DDMISDK;
 				INFOPLIST_FILE = DDMISDKDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DD.DDMISDKDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -377,25 +387,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		90D6123C1C83EEF200B768A5 /* Build configuration list for PBXProject "DDMISDKDemo" */ = {
+		905AB8631C84315D004BB94C /* Build configuration list for PBXProject "DDMISDKDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90D612561C83EEF200B768A5 /* Debug */,
-				90D612571C83EEF200B768A5 /* Release */,
+				905AB87D1C84315D004BB94C /* Debug */,
+				905AB87E1C84315D004BB94C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90D612581C83EEF200B768A5 /* Build configuration list for PBXNativeTarget "DDMISDKDemo" */ = {
+		905AB87F1C84315D004BB94C /* Build configuration list for PBXNativeTarget "DDMISDKDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90D612591C83EEF200B768A5 /* Debug */,
-				90D6125A1C83EEF200B768A5 /* Release */,
+				905AB8801C84315D004BB94C /* Debug */,
+				905AB8811C84315D004BB94C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 90D612391C83EEF200B768A5 /* Project object */;
+	rootObject = 905AB8601C84315D004BB94C /* Project object */;
 }
