@@ -11,9 +11,10 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.0'  
   s.requires_arc = true  
 
-  s.ios.source_files = 'DDMISDK/Classes/*.{m,h}'  
-  s.ios.public_header_files = 'DDMISDK/Classes/DDMIHandler.h','DDMISDK/Classes/DDMIUserInfoItem.h','DDMISDK/Classes/DDMIHandler.h'
-  s.ios.resources = ['DDMISDK/Resource/*.xib','DDMISDK/Resource/*.xcassets','DDMISDK/Resource/*.lproj']
+  s.ios.source_files = 'DDMISDK/*.{h,m}'
+  s.public_header_files = 'DDMISDK/DDMIHandler.h','DDMISDK/DDMIUserInfoItem.h','DDMISDK/DDMIHandler.h'
+  s.ios.resources = ['DDMISDK/*.xib','DDMISDK/*.xcassets','DDMISDK/*.lproj']
+  
   s.ios.vendored_frameworks = 'DDMISDK/*.framework'
   s.libraries = 'stdc++'  
 end  
