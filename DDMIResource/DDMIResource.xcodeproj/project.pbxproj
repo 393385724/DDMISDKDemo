@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90D612E81C841AA000B768A5 /* DDMIAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90D612E41C841AA000B768A5 /* DDMIAuthViewController.xib */; };
+		90D612EA1C841AA000B768A5 /* DDMILoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90D612E61C841AA000B768A5 /* DDMILoginViewController.xib */; };
+		90D612EB1C841AA000B768A5 /* DDMIVerifyLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90D612E71C841AA000B768A5 /* DDMIVerifyLoginViewController.xib */; };
+		90D613241C841AE300B768A5 /* DDMILocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90D613261C841AE300B768A5 /* DDMILocalizable.strings */; };
+		90D613361C8421B000B768A5 /* dd_button_trust_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D6132F1C8421B000B768A5 /* dd_button_trust_icon@2x.png */; };
+		90D613371C8421B000B768A5 /* dd_button_untrust_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D613301C8421B000B768A5 /* dd_button_untrust_icon@2x.png */; };
+		90D613381C8421B000B768A5 /* dd_circleIndicator_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D613311C8421B000B768A5 /* dd_circleIndicator_icon@2x.png */; };
+		90D613391C8421B000B768A5 /* dd_input_bg_verification@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D613321C8421B000B768A5 /* dd_input_bg_verification@2x.png */; };
+		90D6133A1C8421B000B768A5 /* dd_input_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D613331C8421B000B768A5 /* dd_input_bg@2x.png */; };
+		90D6133B1C8421B000B768A5 /* dd_mi_logo_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D613341C8421B000B768A5 /* dd_mi_logo_icon@2x.png */; };
+		90D6133C1C8421B000B768A5 /* dd_single_input_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D613351C8421B000B768A5 /* dd_single_input_bg@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		90D612DB1C841A5300B768A5 /* DDMIResource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDMIResource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D612E41C841AA000B768A5 /* DDMIAuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMIAuthViewController.xib; sourceTree = "<group>"; };
+		90D612E61C841AA000B768A5 /* DDMILoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMILoginViewController.xib; sourceTree = "<group>"; };
+		90D612E71C841AA000B768A5 /* DDMIVerifyLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMIVerifyLoginViewController.xib; sourceTree = "<group>"; };
+		90D613251C841AE300B768A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DDMILocalizable.strings; sourceTree = "<group>"; };
+		90D613271C841AF300B768A5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DDMILocalizable.strings"; sourceTree = "<group>"; };
+		90D613281C841AF700B768A5 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/DDMILocalizable.strings"; sourceTree = "<group>"; };
+		90D6132F1C8421B000B768A5 /* dd_button_trust_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_button_trust_icon@2x.png"; sourceTree = "<group>"; };
+		90D613301C8421B000B768A5 /* dd_button_untrust_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_button_untrust_icon@2x.png"; sourceTree = "<group>"; };
+		90D613311C8421B000B768A5 /* dd_circleIndicator_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_circleIndicator_icon@2x.png"; sourceTree = "<group>"; };
+		90D613321C8421B000B768A5 /* dd_input_bg_verification@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_input_bg_verification@2x.png"; sourceTree = "<group>"; };
+		90D613331C8421B000B768A5 /* dd_input_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_input_bg@2x.png"; sourceTree = "<group>"; };
+		90D613341C8421B000B768A5 /* dd_mi_logo_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_mi_logo_icon@2x.png"; sourceTree = "<group>"; };
+		90D613351C8421B000B768A5 /* dd_single_input_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_single_input_bg@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90D612D81C841A5300B768A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90D612D21C841A5300B768A5 = {
+			isa = PBXGroup;
+			children = (
+				90D612DD1C841A5300B768A5 /* DDMIResource */,
+				90D612DC1C841A5300B768A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90D612DC1C841A5300B768A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90D612DB1C841A5300B768A5 /* DDMIResource.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90D612DD1C841A5300B768A5 /* DDMIResource */ = {
+			isa = PBXGroup;
+			children = (
+				90D6132F1C8421B000B768A5 /* dd_button_trust_icon@2x.png */,
+				90D613301C8421B000B768A5 /* dd_button_untrust_icon@2x.png */,
+				90D613311C8421B000B768A5 /* dd_circleIndicator_icon@2x.png */,
+				90D613321C8421B000B768A5 /* dd_input_bg_verification@2x.png */,
+				90D613331C8421B000B768A5 /* dd_input_bg@2x.png */,
+				90D613341C8421B000B768A5 /* dd_mi_logo_icon@2x.png */,
+				90D613351C8421B000B768A5 /* dd_single_input_bg@2x.png */,
+				90D612E41C841AA000B768A5 /* DDMIAuthViewController.xib */,
+				90D612E61C841AA000B768A5 /* DDMILoginViewController.xib */,
+				90D612E71C841AA000B768A5 /* DDMIVerifyLoginViewController.xib */,
+				90D613261C841AE300B768A5 /* DDMILocalizable.strings */,
+			);
+			path = DDMIResource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90D612DA1C841A5300B768A5 /* DDMIResource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90D612E11C841A5300B768A5 /* Build configuration list for PBXNativeTarget "DDMIResource" */;
+			buildPhases = (
+				90D612D71C841A5300B768A5 /* Sources */,
+				90D612D81C841A5300B768A5 /* Frameworks */,
+				90D612D91C841A5300B768A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDMIResource;
+			productName = DDMIResource;
+			productReference = 90D612DB1C841A5300B768A5 /* DDMIResource.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90D612D31C841A5300B768A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = LiLingang;
+				TargetAttributes = {
+					90D612DA1C841A5300B768A5 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 90D612D61C841A5300B768A5 /* Build configuration list for PBXProject "DDMIResource" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 90D612D21C841A5300B768A5;
+			productRefGroup = 90D612DC1C841A5300B768A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90D612DA1C841A5300B768A5 /* DDMIResource */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90D612D91C841A5300B768A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D612EA1C841AA000B768A5 /* DDMILoginViewController.xib in Resources */,
+				90D613371C8421B000B768A5 /* dd_button_untrust_icon@2x.png in Resources */,
+				90D6133B1C8421B000B768A5 /* dd_mi_logo_icon@2x.png in Resources */,
+				90D612E81C841AA000B768A5 /* DDMIAuthViewController.xib in Resources */,
+				90D613241C841AE300B768A5 /* DDMILocalizable.strings in Resources */,
+				90D6133A1C8421B000B768A5 /* dd_input_bg@2x.png in Resources */,
+				90D6133C1C8421B000B768A5 /* dd_single_input_bg@2x.png in Resources */,
+				90D613381C8421B000B768A5 /* dd_circleIndicator_icon@2x.png in Resources */,
+				90D613391C8421B000B768A5 /* dd_input_bg_verification@2x.png in Resources */,
+				90D612EB1C841AA000B768A5 /* DDMIVerifyLoginViewController.xib in Resources */,
+				90D613361C8421B000B768A5 /* dd_button_trust_icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90D612D71C841A5300B768A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		90D613261C841AE300B768A5 /* DDMILocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90D613251C841AE300B768A5 /* en */,
+				90D613271C841AF300B768A5 /* zh-Hans */,
+				90D613281C841AF700B768A5 /* zh-Hant */,
+			);
+			name = DDMILocalizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90D612DF1C841A5300B768A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		90D612E01C841A5300B768A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		90D612E21C841A5300B768A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "";
+				PRODUCT_BUNDLE_IDENTIFIER = DD.DDMIResource;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		90D612E31C841A5300B768A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "";
+				PRODUCT_BUNDLE_IDENTIFIER = DD.DDMIResource;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90D612D61C841A5300B768A5 /* Build configuration list for PBXProject "DDMIResource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D612DF1C841A5300B768A5 /* Debug */,
+				90D612E01C841A5300B768A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90D612E11C841A5300B768A5 /* Build configuration list for PBXNativeTarget "DDMIResource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D612E21C841A5300B768A5 /* Debug */,
+				90D612E31C841A5300B768A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90D612D31C841A5300B768A5 /* Project object */;
+}
