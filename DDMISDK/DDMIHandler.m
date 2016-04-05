@@ -32,8 +32,10 @@
 
 @implementation DDMIHandler
 
-- (void)registerAppWithRedirectURL:(NSString *)redirectURL{
+- (BOOL)registerApp:(NSString *)appid withRedirectURL:(NSString *)redirectURL{
     self.redirectUrl = redirectURL;
+    self.appKey = appid;
+    return YES;
 }
 
 - (BOOL)authWithType:(DDMIAuthResponseType)type
@@ -159,25 +161,5 @@
         _requestHandle = [[DDMIRequestHandle alloc] init];
     }
     return _requestHandle;
-}
-
-- (NSString *)appKey{
-    if (!_appKey) {
-        NSArray *urlTypesArray = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleURLTypes"];
-        NSArray *urlSchemes;
-        for (NSDictionary *dict in urlTypesArray) {
-            if ([[dict objectForKey:@"CFBundleURLName"] isEqualToString:@"xiaomi"]) {
-                urlSchemes = [dict objectForKey:@"CFBundleURLSchemes"];
-                break;
-            }
-        }
-        for (NSString *string in urlSchemes) {
-            if ([string hasPrefix:@"mi"]) {
-                _appKey = string;
-            }
-        }
-        _appKey = [_appKey stringByReplacingOccurrencesOfString:@"mi" withString:@""];
-    }
-    return _appKey;
 }
 @end

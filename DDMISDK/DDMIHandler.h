@@ -28,11 +28,14 @@ typedef void(^DDMIGetProfielEventHandler) (DDMIUserInfoItem *userInfoItem, NSErr
 @interface DDMIHandler : NSObject
 
 /**
- *  @brief  注册小米SDK
+ *  @brief 向小米终端程序注册第三方应用
  *
- *  @param redirectURL 线下填写的重定向URL
+ *  @param appid 小米开发者ID
+ *  @param redirectURL 微博开放平台第三方应用授权回调页地址
+ *
+ *  @return YES ? 成功 : 失败
  */
-- (void)registerAppWithRedirectURL:(NSString *)redirectURL;
+- (BOOL)registerApp:(NSString *)appid withRedirectURL:(NSString *)redirectURL;
 
 /**
  *  @brief  小米账号授权

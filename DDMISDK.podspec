@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
   s.name             = "DDMISDK"  
-  s.version          = "1.0.1"  
+  s.version          = "1.0.2"  
   s.summary          = "mi auth sdk with ui"  
   s.homepage         = "https://github.com/393385724/DDMISDKDemo"  
   s.license          = 'MIT'  
