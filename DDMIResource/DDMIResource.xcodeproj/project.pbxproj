@@ -7,34 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		90D612E81C841AA000B768A5 /* DDMIAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90D612E41C841AA000B768A5 /* DDMIAuthViewController.xib */; };
+		906BAF9F1CD9807300E27B65 /* dd_button_trust_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BAF8B1CD9807300E27B65 /* dd_button_trust_icon@2x.png */; };
+		906BAFA01CD9807300E27B65 /* dd_button_untrust_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BAF8C1CD9807300E27B65 /* dd_button_untrust_icon@2x.png */; };
+		906BAFA11CD9807300E27B65 /* dd_circleIndicator_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BAF8D1CD9807300E27B65 /* dd_circleIndicator_icon@2x.png */; };
+		906BAFA21CD9807300E27B65 /* dd_input_bg_verification@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BAF8E1CD9807300E27B65 /* dd_input_bg_verification@2x.png */; };
+		906BAFA31CD9807300E27B65 /* dd_input_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BAF8F1CD9807300E27B65 /* dd_input_bg@2x.png */; };
+		906BAFA41CD9807300E27B65 /* dd_mi_back_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BAF901CD9807300E27B65 /* dd_mi_back_highlight@2x.png */; };
+		906BAFA51CD9807300E27B65 /* dd_mi_back_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BAF911CD9807300E27B65 /* dd_mi_back_normal@2x.png */; };
+		906BAFA61CD9807300E27B65 /* dd_mi_hide_password@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 906BAF921CD9807300E27B65 /* dd_mi_hide_password@2x.jpg */; };
+		906BAFA71CD9807300E27B65 /* dd_mi_logo_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BAF931CD9807300E27B65 /* dd_mi_logo_icon@2x.png */; };
+		906BAFA81CD9807300E27B65 /* dd_mi_more_country@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 906BAF941CD9807300E27B65 /* dd_mi_more_country@2x.jpg */; };
+		906BAFA91CD9807300E27B65 /* dd_mi_register_input_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BAF951CD9807300E27B65 /* dd_mi_register_input_bg@2x.png */; };
+		906BAFAA1CD9807300E27B65 /* dd_mi_resend_bg_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BAF961CD9807300E27B65 /* dd_mi_resend_bg_disable@2x.png */; };
+		906BAFAB1CD9807300E27B65 /* dd_mi_resend_bg_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BAF971CD9807300E27B65 /* dd_mi_resend_bg_normal@2x.png */; };
+		906BAFAC1CD9807300E27B65 /* dd_mi_show_password@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BAF981CD9807300E27B65 /* dd_mi_show_password@2x.png */; };
+		906BAFAD1CD9807300E27B65 /* dd_mi_sms_code_bg_image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BAF991CD9807300E27B65 /* dd_mi_sms_code_bg_image@2x.png */; };
+		906BAFAE1CD9807300E27B65 /* dd_single_input_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 906BAF9A1CD9807300E27B65 /* dd_single_input_bg@2x.png */; };
+		906BAFAF1CD9807300E27B65 /* DDMICountryListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 906BAF9B1CD9807300E27B65 /* DDMICountryListViewController.xib */; };
+		906BAFB01CD9807300E27B65 /* DDMIRegisterCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 906BAF9C1CD9807300E27B65 /* DDMIRegisterCodeView.xib */; };
+		906BAFB11CD9807300E27B65 /* DDMIRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 906BAF9D1CD9807300E27B65 /* DDMIRegisterViewController.xib */; };
+		906BAFB21CD9807300E27B65 /* DDMISMSVerifyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 906BAF9E1CD9807300E27B65 /* DDMISMSVerifyViewController.xib */; };
 		90D612EA1C841AA000B768A5 /* DDMILoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90D612E61C841AA000B768A5 /* DDMILoginViewController.xib */; };
 		90D612EB1C841AA000B768A5 /* DDMIVerifyLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90D612E71C841AA000B768A5 /* DDMIVerifyLoginViewController.xib */; };
 		90D613241C841AE300B768A5 /* DDMILocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90D613261C841AE300B768A5 /* DDMILocalizable.strings */; };
-		90D613361C8421B000B768A5 /* dd_button_trust_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D6132F1C8421B000B768A5 /* dd_button_trust_icon@2x.png */; };
-		90D613371C8421B000B768A5 /* dd_button_untrust_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D613301C8421B000B768A5 /* dd_button_untrust_icon@2x.png */; };
-		90D613381C8421B000B768A5 /* dd_circleIndicator_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D613311C8421B000B768A5 /* dd_circleIndicator_icon@2x.png */; };
-		90D613391C8421B000B768A5 /* dd_input_bg_verification@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D613321C8421B000B768A5 /* dd_input_bg_verification@2x.png */; };
-		90D6133A1C8421B000B768A5 /* dd_input_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D613331C8421B000B768A5 /* dd_input_bg@2x.png */; };
-		90D6133B1C8421B000B768A5 /* dd_mi_logo_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D613341C8421B000B768A5 /* dd_mi_logo_icon@2x.png */; };
-		90D6133C1C8421B000B768A5 /* dd_single_input_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90D613351C8421B000B768A5 /* dd_single_input_bg@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		906BAF8B1CD9807300E27B65 /* dd_button_trust_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_button_trust_icon@2x.png"; sourceTree = "<group>"; };
+		906BAF8C1CD9807300E27B65 /* dd_button_untrust_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_button_untrust_icon@2x.png"; sourceTree = "<group>"; };
+		906BAF8D1CD9807300E27B65 /* dd_circleIndicator_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_circleIndicator_icon@2x.png"; sourceTree = "<group>"; };
+		906BAF8E1CD9807300E27B65 /* dd_input_bg_verification@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_input_bg_verification@2x.png"; sourceTree = "<group>"; };
+		906BAF8F1CD9807300E27B65 /* dd_input_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_input_bg@2x.png"; sourceTree = "<group>"; };
+		906BAF901CD9807300E27B65 /* dd_mi_back_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_mi_back_highlight@2x.png"; sourceTree = "<group>"; };
+		906BAF911CD9807300E27B65 /* dd_mi_back_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_mi_back_normal@2x.png"; sourceTree = "<group>"; };
+		906BAF921CD9807300E27B65 /* dd_mi_hide_password@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dd_mi_hide_password@2x.jpg"; sourceTree = "<group>"; };
+		906BAF931CD9807300E27B65 /* dd_mi_logo_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_mi_logo_icon@2x.png"; sourceTree = "<group>"; };
+		906BAF941CD9807300E27B65 /* dd_mi_more_country@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dd_mi_more_country@2x.jpg"; sourceTree = "<group>"; };
+		906BAF951CD9807300E27B65 /* dd_mi_register_input_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_mi_register_input_bg@2x.png"; sourceTree = "<group>"; };
+		906BAF961CD9807300E27B65 /* dd_mi_resend_bg_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_mi_resend_bg_disable@2x.png"; sourceTree = "<group>"; };
+		906BAF971CD9807300E27B65 /* dd_mi_resend_bg_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_mi_resend_bg_normal@2x.png"; sourceTree = "<group>"; };
+		906BAF981CD9807300E27B65 /* dd_mi_show_password@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_mi_show_password@2x.png"; sourceTree = "<group>"; };
+		906BAF991CD9807300E27B65 /* dd_mi_sms_code_bg_image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_mi_sms_code_bg_image@2x.png"; sourceTree = "<group>"; };
+		906BAF9A1CD9807300E27B65 /* dd_single_input_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_single_input_bg@2x.png"; sourceTree = "<group>"; };
+		906BAF9B1CD9807300E27B65 /* DDMICountryListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMICountryListViewController.xib; sourceTree = "<group>"; };
+		906BAF9C1CD9807300E27B65 /* DDMIRegisterCodeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMIRegisterCodeView.xib; sourceTree = "<group>"; };
+		906BAF9D1CD9807300E27B65 /* DDMIRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMIRegisterViewController.xib; sourceTree = "<group>"; };
+		906BAF9E1CD9807300E27B65 /* DDMISMSVerifyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMISMSVerifyViewController.xib; sourceTree = "<group>"; };
 		90D612DB1C841A5300B768A5 /* DDMIResource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDMIResource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		90D612E41C841AA000B768A5 /* DDMIAuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMIAuthViewController.xib; sourceTree = "<group>"; };
 		90D612E61C841AA000B768A5 /* DDMILoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMILoginViewController.xib; sourceTree = "<group>"; };
 		90D612E71C841AA000B768A5 /* DDMIVerifyLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMIVerifyLoginViewController.xib; sourceTree = "<group>"; };
 		90D613251C841AE300B768A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DDMILocalizable.strings; sourceTree = "<group>"; };
 		90D613271C841AF300B768A5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/DDMILocalizable.strings"; sourceTree = "<group>"; };
 		90D613281C841AF700B768A5 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/DDMILocalizable.strings"; sourceTree = "<group>"; };
-		90D6132F1C8421B000B768A5 /* dd_button_trust_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_button_trust_icon@2x.png"; sourceTree = "<group>"; };
-		90D613301C8421B000B768A5 /* dd_button_untrust_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_button_untrust_icon@2x.png"; sourceTree = "<group>"; };
-		90D613311C8421B000B768A5 /* dd_circleIndicator_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_circleIndicator_icon@2x.png"; sourceTree = "<group>"; };
-		90D613321C8421B000B768A5 /* dd_input_bg_verification@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_input_bg_verification@2x.png"; sourceTree = "<group>"; };
-		90D613331C8421B000B768A5 /* dd_input_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_input_bg@2x.png"; sourceTree = "<group>"; };
-		90D613341C8421B000B768A5 /* dd_mi_logo_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_mi_logo_icon@2x.png"; sourceTree = "<group>"; };
-		90D613351C8421B000B768A5 /* dd_single_input_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dd_single_input_bg@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,14 +91,26 @@
 		90D612DD1C841A5300B768A5 /* DDMIResource */ = {
 			isa = PBXGroup;
 			children = (
-				90D6132F1C8421B000B768A5 /* dd_button_trust_icon@2x.png */,
-				90D613301C8421B000B768A5 /* dd_button_untrust_icon@2x.png */,
-				90D613311C8421B000B768A5 /* dd_circleIndicator_icon@2x.png */,
-				90D613321C8421B000B768A5 /* dd_input_bg_verification@2x.png */,
-				90D613331C8421B000B768A5 /* dd_input_bg@2x.png */,
-				90D613341C8421B000B768A5 /* dd_mi_logo_icon@2x.png */,
-				90D613351C8421B000B768A5 /* dd_single_input_bg@2x.png */,
-				90D612E41C841AA000B768A5 /* DDMIAuthViewController.xib */,
+				906BAF8B1CD9807300E27B65 /* dd_button_trust_icon@2x.png */,
+				906BAF8C1CD9807300E27B65 /* dd_button_untrust_icon@2x.png */,
+				906BAF8D1CD9807300E27B65 /* dd_circleIndicator_icon@2x.png */,
+				906BAF8E1CD9807300E27B65 /* dd_input_bg_verification@2x.png */,
+				906BAF8F1CD9807300E27B65 /* dd_input_bg@2x.png */,
+				906BAF901CD9807300E27B65 /* dd_mi_back_highlight@2x.png */,
+				906BAF911CD9807300E27B65 /* dd_mi_back_normal@2x.png */,
+				906BAF921CD9807300E27B65 /* dd_mi_hide_password@2x.jpg */,
+				906BAF931CD9807300E27B65 /* dd_mi_logo_icon@2x.png */,
+				906BAF941CD9807300E27B65 /* dd_mi_more_country@2x.jpg */,
+				906BAF951CD9807300E27B65 /* dd_mi_register_input_bg@2x.png */,
+				906BAF961CD9807300E27B65 /* dd_mi_resend_bg_disable@2x.png */,
+				906BAF971CD9807300E27B65 /* dd_mi_resend_bg_normal@2x.png */,
+				906BAF981CD9807300E27B65 /* dd_mi_show_password@2x.png */,
+				906BAF991CD9807300E27B65 /* dd_mi_sms_code_bg_image@2x.png */,
+				906BAF9A1CD9807300E27B65 /* dd_single_input_bg@2x.png */,
+				906BAF9B1CD9807300E27B65 /* DDMICountryListViewController.xib */,
+				906BAF9C1CD9807300E27B65 /* DDMIRegisterCodeView.xib */,
+				906BAF9D1CD9807300E27B65 /* DDMIRegisterViewController.xib */,
+				906BAF9E1CD9807300E27B65 /* DDMISMSVerifyViewController.xib */,
 				90D612E61C841AA000B768A5 /* DDMILoginViewController.xib */,
 				90D612E71C841AA000B768A5 /* DDMIVerifyLoginViewController.xib */,
 				90D613261C841AE300B768A5 /* DDMILocalizable.strings */,
@@ -140,17 +176,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				906BAFAC1CD9807300E27B65 /* dd_mi_show_password@2x.png in Resources */,
+				906BAFA51CD9807300E27B65 /* dd_mi_back_normal@2x.png in Resources */,
+				906BAFB01CD9807300E27B65 /* DDMIRegisterCodeView.xib in Resources */,
 				90D612EA1C841AA000B768A5 /* DDMILoginViewController.xib in Resources */,
-				90D613371C8421B000B768A5 /* dd_button_untrust_icon@2x.png in Resources */,
-				90D6133B1C8421B000B768A5 /* dd_mi_logo_icon@2x.png in Resources */,
-				90D612E81C841AA000B768A5 /* DDMIAuthViewController.xib in Resources */,
+				906BAFA01CD9807300E27B65 /* dd_button_untrust_icon@2x.png in Resources */,
+				906BAFAA1CD9807300E27B65 /* dd_mi_resend_bg_disable@2x.png in Resources */,
+				906BAFA41CD9807300E27B65 /* dd_mi_back_highlight@2x.png in Resources */,
+				906BAFAE1CD9807300E27B65 /* dd_single_input_bg@2x.png in Resources */,
 				90D613241C841AE300B768A5 /* DDMILocalizable.strings in Resources */,
-				90D6133A1C8421B000B768A5 /* dd_input_bg@2x.png in Resources */,
-				90D6133C1C8421B000B768A5 /* dd_single_input_bg@2x.png in Resources */,
-				90D613381C8421B000B768A5 /* dd_circleIndicator_icon@2x.png in Resources */,
-				90D613391C8421B000B768A5 /* dd_input_bg_verification@2x.png in Resources */,
+				906BAFA81CD9807300E27B65 /* dd_mi_more_country@2x.jpg in Resources */,
+				906BAFA31CD9807300E27B65 /* dd_input_bg@2x.png in Resources */,
+				906BAFAD1CD9807300E27B65 /* dd_mi_sms_code_bg_image@2x.png in Resources */,
+				906BAFB21CD9807300E27B65 /* DDMISMSVerifyViewController.xib in Resources */,
+				906BAFA91CD9807300E27B65 /* dd_mi_register_input_bg@2x.png in Resources */,
+				906BAFB11CD9807300E27B65 /* DDMIRegisterViewController.xib in Resources */,
+				906BAFA61CD9807300E27B65 /* dd_mi_hide_password@2x.jpg in Resources */,
+				906BAFAB1CD9807300E27B65 /* dd_mi_resend_bg_normal@2x.png in Resources */,
+				906BAFA71CD9807300E27B65 /* dd_mi_logo_icon@2x.png in Resources */,
+				906BAFA11CD9807300E27B65 /* dd_circleIndicator_icon@2x.png in Resources */,
+				906BAFA21CD9807300E27B65 /* dd_input_bg_verification@2x.png in Resources */,
 				90D612EB1C841AA000B768A5 /* DDMIVerifyLoginViewController.xib in Resources */,
-				90D613361C8421B000B768A5 /* dd_button_trust_icon@2x.png in Resources */,
+				906BAF9F1CD9807300E27B65 /* dd_button_trust_icon@2x.png in Resources */,
+				906BAFAF1CD9807300E27B65 /* DDMICountryListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

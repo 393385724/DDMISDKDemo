@@ -7,71 +7,110 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		315916D573A7F1A4238F61E7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE211BA50DFA3AD03940D9D4 /* libPods.a */; };
+		9057C8751CD05C7000C17569 /* DDMIDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C85C1CD05C7000C17569 /* DDMIDownLoader.m */; };
+		9057C8761CD05C7000C17569 /* DDMIRequestHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C85E1CD05C7000C17569 /* DDMIRequestHandle.m */; };
+		9057C8791CD05C7000C17569 /* DDMIHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C8651CD05C7000C17569 /* DDMIHandler.m */; };
+		9057C87C1CD05C7100C17569 /* DDMIAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C86B1CD05C7000C17569 /* DDMIAuthViewController.m */; };
+		9057C87D1CD05C7100C17569 /* DDMIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C86D1CD05C7000C17569 /* DDMIBaseViewController.m */; };
+		9057C87E1CD05C7100C17569 /* DDMILoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C86F1CD05C7000C17569 /* DDMILoginViewController.m */; };
+		9057C87F1CD05C7100C17569 /* DDMIVerifyLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C8711CD05C7000C17569 /* DDMIVerifyLoginViewController.m */; };
+		9057C8801CD05C7100C17569 /* DDMICircleIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C8741CD05C7000C17569 /* DDMICircleIndicator.m */; };
+		9057C8831CD05CB800C17569 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C8821CD05CB800C17569 /* AppDelegate.m */; };
+		9057C8871CD05CD300C17569 /* DDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C8851CD05CD300C17569 /* DDMainViewController.m */; };
+		9057C8881CD05CD300C17569 /* DDMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9057C8861CD05CD300C17569 /* DDMainViewController.xib */; };
+		9057C89A1CD0607600C17569 /* DDMIForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C8941CD0607600C17569 /* DDMIForgetPasswordViewController.m */; };
+		9057C89C1CD0607600C17569 /* DDMIAgreementAndPolicyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C8981CD0607600C17569 /* DDMIAgreementAndPolicyViewController.m */; };
+		9057C89E1CD060B000C17569 /* DDMIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C89D1CD060B000C17569 /* DDMIWebViewController.m */; };
+		9057C8B91CD07F6000C17569 /* DDMIRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C8B71CD07F6000C17569 /* DDMIRegisterViewController.m */; };
+		9057C8C21CD08BA400C17569 /* DDMIAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C8BE1CD08BA400C17569 /* DDMIAttributedLabel.m */; };
+		9057C8C31CD08BA400C17569 /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C8C11CD08BA400C17569 /* TTTAttributedLabel.m */; };
+		9057C8C61CD0AA7D00C17569 /* DDMIVerifyPasswordTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C8C51CD0AA7D00C17569 /* DDMIVerifyPasswordTool.m */; };
+		9057C8C91CD1F50900C17569 /* DDMIRegisterCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C8C81CD1F50900C17569 /* DDMIRegisterCodeView.m */; };
+		9057C8CE1CD226B100C17569 /* DDMIErrorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C8CD1CD226B100C17569 /* DDMIErrorTool.m */; };
+		9057C8D21CD2F94200C17569 /* DDMISMSVerifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C8D01CD2F94200C17569 /* DDMISMSVerifyViewController.m */; };
+		9057C8D61CD307B600C17569 /* DDMIHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C8D51CD307B600C17569 /* DDMIHelpViewController.m */; };
+		9057C8D91CD335A000C17569 /* DDMIAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C8D81CD335A000C17569 /* DDMIAccountManager.m */; };
+		9057C8DC1CD34AE200C17569 /* DDMIURLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C8DB1CD34AE200C17569 /* DDMIURLEncode.m */; };
+		9057C8E01CD364C500C17569 /* DDMICountryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C8DE1CD364C500C17569 /* DDMICountryListViewController.m */; };
+		9057C8E41CD376D400C17569 /* UIButton+DDMIHitTestEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 9057C8E31CD376D400C17569 /* UIButton+DDMIHitTestEdgeInsets.m */; };
 		905AB86D1C84315D004BB94C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB86C1C84315D004BB94C /* main.m */; };
 		905AB8761C84315D004BB94C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905AB8741C84315D004BB94C /* Main.storyboard */; };
 		905AB8781C84315D004BB94C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 905AB8771C84315D004BB94C /* Assets.xcassets */; };
 		905AB87B1C84315D004BB94C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 905AB8791C84315D004BB94C /* LaunchScreen.storyboard */; };
-		905AB89F1C843168004BB94C /* DDMIAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB8841C843168004BB94C /* DDMIAuthViewController.m */; };
-		905AB8A01C843168004BB94C /* DDMIBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB8861C843168004BB94C /* DDMIBaseViewController.m */; };
-		905AB8A11C843168004BB94C /* DDMICircleIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB8881C843168004BB94C /* DDMICircleIndicator.m */; };
-		905AB8A21C843168004BB94C /* DDMIDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB88B1C843168004BB94C /* DDMIDownLoader.m */; };
-		905AB8A31C843168004BB94C /* DDMIHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB88D1C843168004BB94C /* DDMIHandler.m */; };
-		905AB8A41C843168004BB94C /* DDMILoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB88F1C843168004BB94C /* DDMILoginViewController.m */; };
-		905AB8A51C843168004BB94C /* DDMIRequestHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB8911C843168004BB94C /* DDMIRequestHandle.m */; };
-		905AB8A61C843168004BB94C /* DDMIResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 905AB8921C843168004BB94C /* DDMIResource.bundle */; };
-		905AB8A71C843168004BB94C /* DDMIUserInfoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB8951C843168004BB94C /* DDMIUserInfoItem.m */; };
-		905AB8A81C843168004BB94C /* DDMIVerifyLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB8971C843168004BB94C /* DDMIVerifyLoginViewController.m */; };
-		905AB8A91C843168004BB94C /* UIButton+DDHitTestEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB8991C843168004BB94C /* UIButton+DDHitTestEdgeInsets.m */; };
-		905AB8AA1C843168004BB94C /* UIView+DDAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB89B1C843168004BB94C /* UIView+DDAction.m */; };
-		905AB8AB1C843168004BB94C /* UIView+DDFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB89D1C843168004BB94C /* UIView+DDFrame.m */; };
-		905AB8AC1C843168004BB94C /* XMPassport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905AB89E1C843168004BB94C /* XMPassport.framework */; };
 		905AB8AE1C8431A2004BB94C /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 905AB8AD1C8431A2004BB94C /* libstdc++.tbd */; };
-		905AB8B41C8431CD004BB94C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB8B01C8431CD004BB94C /* AppDelegate.m */; };
-		905AB8B51C8431CD004BB94C /* DDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 905AB8B21C8431CD004BB94C /* DDMainViewController.m */; };
-		905AB8B61C8431CD004BB94C /* DDMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 905AB8B31C8431CD004BB94C /* DDMainViewController.xib */; };
+		90B986441CD995D5009E355A /* DDMIResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 90B986421CD995D5009E355A /* DDMIResource.bundle */; };
+		90B986451CD995D5009E355A /* XMPassport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B986431CD995D5009E355A /* XMPassport.framework */; };
+		90B986481CD996E0009E355A /* DDMITelephoneRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B986471CD996E0009E355A /* DDMITelephoneRule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9057C85A1CD05C7000C17569 /* DDMIDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIDefines.h; sourceTree = "<group>"; };
+		9057C85B1CD05C7000C17569 /* DDMIDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIDownLoader.h; sourceTree = "<group>"; };
+		9057C85C1CD05C7000C17569 /* DDMIDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIDownLoader.m; sourceTree = "<group>"; };
+		9057C85D1CD05C7000C17569 /* DDMIRequestHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIRequestHandle.h; sourceTree = "<group>"; };
+		9057C85E1CD05C7000C17569 /* DDMIRequestHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIRequestHandle.m; sourceTree = "<group>"; };
+		9057C8641CD05C7000C17569 /* DDMIHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIHandler.h; sourceTree = "<group>"; };
+		9057C8651CD05C7000C17569 /* DDMIHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIHandler.m; sourceTree = "<group>"; };
+		9057C86A1CD05C7000C17569 /* DDMIAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIAuthViewController.h; sourceTree = "<group>"; };
+		9057C86B1CD05C7000C17569 /* DDMIAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIAuthViewController.m; sourceTree = "<group>"; };
+		9057C86C1CD05C7000C17569 /* DDMIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIBaseViewController.h; sourceTree = "<group>"; };
+		9057C86D1CD05C7000C17569 /* DDMIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIBaseViewController.m; sourceTree = "<group>"; };
+		9057C86E1CD05C7000C17569 /* DDMILoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMILoginViewController.h; sourceTree = "<group>"; };
+		9057C86F1CD05C7000C17569 /* DDMILoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMILoginViewController.m; sourceTree = "<group>"; };
+		9057C8701CD05C7000C17569 /* DDMIVerifyLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIVerifyLoginViewController.h; sourceTree = "<group>"; };
+		9057C8711CD05C7000C17569 /* DDMIVerifyLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIVerifyLoginViewController.m; sourceTree = "<group>"; };
+		9057C8731CD05C7000C17569 /* DDMICircleIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMICircleIndicator.h; sourceTree = "<group>"; };
+		9057C8741CD05C7000C17569 /* DDMICircleIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMICircleIndicator.m; sourceTree = "<group>"; };
+		9057C8811CD05CB800C17569 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9057C8821CD05CB800C17569 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9057C8841CD05CD300C17569 /* DDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMainViewController.h; sourceTree = "<group>"; };
+		9057C8851CD05CD300C17569 /* DDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMainViewController.m; sourceTree = "<group>"; };
+		9057C8861CD05CD300C17569 /* DDMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMainViewController.xib; sourceTree = "<group>"; };
+		9057C8931CD0607600C17569 /* DDMIForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIForgetPasswordViewController.h; sourceTree = "<group>"; };
+		9057C8941CD0607600C17569 /* DDMIForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIForgetPasswordViewController.m; sourceTree = "<group>"; };
+		9057C8971CD0607600C17569 /* DDMIAgreementAndPolicyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIAgreementAndPolicyViewController.h; sourceTree = "<group>"; };
+		9057C8981CD0607600C17569 /* DDMIAgreementAndPolicyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIAgreementAndPolicyViewController.m; sourceTree = "<group>"; };
+		9057C8991CD0607600C17569 /* DDMIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIWebViewController.h; sourceTree = "<group>"; };
+		9057C89D1CD060B000C17569 /* DDMIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIWebViewController.m; sourceTree = "<group>"; };
+		9057C8B61CD07F6000C17569 /* DDMIRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIRegisterViewController.h; sourceTree = "<group>"; };
+		9057C8B71CD07F6000C17569 /* DDMIRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIRegisterViewController.m; sourceTree = "<group>"; };
+		9057C8BD1CD08BA400C17569 /* DDMIAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIAttributedLabel.h; sourceTree = "<group>"; };
+		9057C8BE1CD08BA400C17569 /* DDMIAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIAttributedLabel.m; sourceTree = "<group>"; };
+		9057C8C01CD08BA400C17569 /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		9057C8C11CD08BA400C17569 /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
+		9057C8C41CD0AA7D00C17569 /* DDMIVerifyPasswordTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIVerifyPasswordTool.h; sourceTree = "<group>"; };
+		9057C8C51CD0AA7D00C17569 /* DDMIVerifyPasswordTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIVerifyPasswordTool.m; sourceTree = "<group>"; };
+		9057C8C71CD1F50900C17569 /* DDMIRegisterCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIRegisterCodeView.h; sourceTree = "<group>"; };
+		9057C8C81CD1F50900C17569 /* DDMIRegisterCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIRegisterCodeView.m; sourceTree = "<group>"; };
+		9057C8CC1CD226B100C17569 /* DDMIErrorTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIErrorTool.h; sourceTree = "<group>"; };
+		9057C8CD1CD226B100C17569 /* DDMIErrorTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIErrorTool.m; sourceTree = "<group>"; };
+		9057C8CF1CD2F94200C17569 /* DDMISMSVerifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMISMSVerifyViewController.h; sourceTree = "<group>"; };
+		9057C8D01CD2F94200C17569 /* DDMISMSVerifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMISMSVerifyViewController.m; sourceTree = "<group>"; };
+		9057C8D41CD307B600C17569 /* DDMIHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIHelpViewController.h; sourceTree = "<group>"; };
+		9057C8D51CD307B600C17569 /* DDMIHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIHelpViewController.m; sourceTree = "<group>"; };
+		9057C8D71CD335A000C17569 /* DDMIAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIAccountManager.h; sourceTree = "<group>"; };
+		9057C8D81CD335A000C17569 /* DDMIAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIAccountManager.m; sourceTree = "<group>"; };
+		9057C8DA1CD34AE200C17569 /* DDMIURLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIURLEncode.h; sourceTree = "<group>"; };
+		9057C8DB1CD34AE200C17569 /* DDMIURLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIURLEncode.m; sourceTree = "<group>"; };
+		9057C8DD1CD364C500C17569 /* DDMICountryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMICountryListViewController.h; sourceTree = "<group>"; };
+		9057C8DE1CD364C500C17569 /* DDMICountryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMICountryListViewController.m; sourceTree = "<group>"; };
+		9057C8E21CD376D400C17569 /* UIButton+DDMIHitTestEdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DDMIHitTestEdgeInsets.h"; sourceTree = "<group>"; };
+		9057C8E31CD376D400C17569 /* UIButton+DDMIHitTestEdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DDMIHitTestEdgeInsets.m"; sourceTree = "<group>"; };
 		905AB8681C84315D004BB94C /* DDMISDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDMISDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		905AB86C1C84315D004BB94C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		905AB8751C84315D004BB94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		905AB8771C84315D004BB94C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		905AB87A1C84315D004BB94C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		905AB87C1C84315D004BB94C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		905AB8831C843168004BB94C /* DDMIAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIAuthViewController.h; sourceTree = "<group>"; };
-		905AB8841C843168004BB94C /* DDMIAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIAuthViewController.m; sourceTree = "<group>"; };
-		905AB8851C843168004BB94C /* DDMIBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIBaseViewController.h; sourceTree = "<group>"; };
-		905AB8861C843168004BB94C /* DDMIBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIBaseViewController.m; sourceTree = "<group>"; };
-		905AB8871C843168004BB94C /* DDMICircleIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMICircleIndicator.h; sourceTree = "<group>"; };
-		905AB8881C843168004BB94C /* DDMICircleIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMICircleIndicator.m; sourceTree = "<group>"; };
-		905AB8891C843168004BB94C /* DDMIDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIDefines.h; sourceTree = "<group>"; };
-		905AB88A1C843168004BB94C /* DDMIDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIDownLoader.h; sourceTree = "<group>"; };
-		905AB88B1C843168004BB94C /* DDMIDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIDownLoader.m; sourceTree = "<group>"; };
-		905AB88C1C843168004BB94C /* DDMIHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIHandler.h; sourceTree = "<group>"; };
-		905AB88D1C843168004BB94C /* DDMIHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIHandler.m; sourceTree = "<group>"; };
-		905AB88E1C843168004BB94C /* DDMILoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMILoginViewController.h; sourceTree = "<group>"; };
-		905AB88F1C843168004BB94C /* DDMILoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMILoginViewController.m; sourceTree = "<group>"; };
-		905AB8901C843168004BB94C /* DDMIRequestHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIRequestHandle.h; sourceTree = "<group>"; };
-		905AB8911C843168004BB94C /* DDMIRequestHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIRequestHandle.m; sourceTree = "<group>"; };
-		905AB8921C843168004BB94C /* DDMIResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DDMIResource.bundle; sourceTree = "<group>"; };
-		905AB8931C843168004BB94C /* DDMITypeDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMITypeDefines.h; sourceTree = "<group>"; };
-		905AB8941C843168004BB94C /* DDMIUserInfoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIUserInfoItem.h; sourceTree = "<group>"; };
-		905AB8951C843168004BB94C /* DDMIUserInfoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIUserInfoItem.m; sourceTree = "<group>"; };
-		905AB8961C843168004BB94C /* DDMIVerifyLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMIVerifyLoginViewController.h; sourceTree = "<group>"; };
-		905AB8971C843168004BB94C /* DDMIVerifyLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMIVerifyLoginViewController.m; sourceTree = "<group>"; };
-		905AB8981C843168004BB94C /* UIButton+DDHitTestEdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DDHitTestEdgeInsets.h"; sourceTree = "<group>"; };
-		905AB8991C843168004BB94C /* UIButton+DDHitTestEdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DDHitTestEdgeInsets.m"; sourceTree = "<group>"; };
-		905AB89A1C843168004BB94C /* UIView+DDAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DDAction.h"; sourceTree = "<group>"; };
-		905AB89B1C843168004BB94C /* UIView+DDAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DDAction.m"; sourceTree = "<group>"; };
-		905AB89C1C843168004BB94C /* UIView+DDFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DDFrame.h"; sourceTree = "<group>"; };
-		905AB89D1C843168004BB94C /* UIView+DDFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DDFrame.m"; sourceTree = "<group>"; };
-		905AB89E1C843168004BB94C /* XMPassport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XMPassport.framework; sourceTree = "<group>"; };
 		905AB8AD1C8431A2004BB94C /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
-		905AB8AF1C8431CD004BB94C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../../../../.Trash/DDMISDKDemo/DDMISDKDemo/AppDelegate.h; sourceTree = "<group>"; };
-		905AB8B01C8431CD004BB94C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../../../../.Trash/DDMISDKDemo/DDMISDKDemo/AppDelegate.m; sourceTree = "<group>"; };
-		905AB8B11C8431CD004BB94C /* DDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDMainViewController.h; path = ../../../../../.Trash/DDMISDKDemo/DDMISDKDemo/DDMainViewController.h; sourceTree = "<group>"; };
-		905AB8B21C8431CD004BB94C /* DDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDMainViewController.m; path = ../../../../../.Trash/DDMISDKDemo/DDMISDKDemo/DDMainViewController.m; sourceTree = "<group>"; };
-		905AB8B31C8431CD004BB94C /* DDMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DDMainViewController.xib; path = ../../../../../.Trash/DDMISDKDemo/DDMISDKDemo/DDMainViewController.xib; sourceTree = "<group>"; };
+		90B986421CD995D5009E355A /* DDMIResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = DDMIResource.bundle; path = Resources/DDMIResource.bundle; sourceTree = "<group>"; };
+		90B986431CD995D5009E355A /* XMPassport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XMPassport.framework; path = Resources/XMPassport.framework; sourceTree = "<group>"; };
+		90B986461CD996E0009E355A /* DDMITelephoneRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMITelephoneRule.h; sourceTree = "<group>"; };
+		90B986471CD996E0009E355A /* DDMITelephoneRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMITelephoneRule.m; sourceTree = "<group>"; };
+		ADD06D4163F2F3E02ADEC629 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DE211BA50DFA3AD03940D9D4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAE60B3D0D3642447422AB52 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,20 +119,138 @@
 			buildActionMask = 2147483647;
 			files = (
 				905AB8AE1C8431A2004BB94C /* libstdc++.tbd in Frameworks */,
-				905AB8AC1C843168004BB94C /* XMPassport.framework in Frameworks */,
+				315916D573A7F1A4238F61E7 /* libPods.a in Frameworks */,
+				90B986451CD995D5009E355A /* XMPassport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E5B3CCE9FCFDEC1F2AD6A9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE211BA50DFA3AD03940D9D4 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86145923169C775168A14A22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EAE60B3D0D3642447422AB52 /* Pods.debug.xcconfig */,
+				ADD06D4163F2F3E02ADEC629 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9057C8581CD05C7000C17569 /* DDMISDK */ = {
+			isa = PBXGroup;
+			children = (
+				90B986421CD995D5009E355A /* DDMIResource.bundle */,
+				90B986431CD995D5009E355A /* XMPassport.framework */,
+				9057C8591CD05C7000C17569 /* Extensions */,
+				9057C8631CD05C7000C17569 /* Handler */,
+				9057C8691CD05C7000C17569 /* ViewControllers */,
+				9057C8721CD05C7000C17569 /* Views */,
+			);
+			path = DDMISDK;
+			sourceTree = "<group>";
+		};
+		9057C8591CD05C7000C17569 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9057C8E21CD376D400C17569 /* UIButton+DDMIHitTestEdgeInsets.h */,
+				9057C8E31CD376D400C17569 /* UIButton+DDMIHitTestEdgeInsets.m */,
+				9057C85A1CD05C7000C17569 /* DDMIDefines.h */,
+				9057C85B1CD05C7000C17569 /* DDMIDownLoader.h */,
+				9057C85C1CD05C7000C17569 /* DDMIDownLoader.m */,
+				9057C85D1CD05C7000C17569 /* DDMIRequestHandle.h */,
+				9057C85E1CD05C7000C17569 /* DDMIRequestHandle.m */,
+				9057C8D71CD335A000C17569 /* DDMIAccountManager.h */,
+				9057C8D81CD335A000C17569 /* DDMIAccountManager.m */,
+				9057C8C41CD0AA7D00C17569 /* DDMIVerifyPasswordTool.h */,
+				9057C8C51CD0AA7D00C17569 /* DDMIVerifyPasswordTool.m */,
+				9057C8DA1CD34AE200C17569 /* DDMIURLEncode.h */,
+				9057C8DB1CD34AE200C17569 /* DDMIURLEncode.m */,
+				9057C8CC1CD226B100C17569 /* DDMIErrorTool.h */,
+				9057C8CD1CD226B100C17569 /* DDMIErrorTool.m */,
+				90B986461CD996E0009E355A /* DDMITelephoneRule.h */,
+				90B986471CD996E0009E355A /* DDMITelephoneRule.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9057C8631CD05C7000C17569 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				9057C8641CD05C7000C17569 /* DDMIHandler.h */,
+				9057C8651CD05C7000C17569 /* DDMIHandler.m */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		9057C8691CD05C7000C17569 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9057C86C1CD05C7000C17569 /* DDMIBaseViewController.h */,
+				9057C86D1CD05C7000C17569 /* DDMIBaseViewController.m */,
+				9057C8991CD0607600C17569 /* DDMIWebViewController.h */,
+				9057C89D1CD060B000C17569 /* DDMIWebViewController.m */,
+				9057C86E1CD05C7000C17569 /* DDMILoginViewController.h */,
+				9057C86F1CD05C7000C17569 /* DDMILoginViewController.m */,
+				9057C86A1CD05C7000C17569 /* DDMIAuthViewController.h */,
+				9057C86B1CD05C7000C17569 /* DDMIAuthViewController.m */,
+				9057C8701CD05C7000C17569 /* DDMIVerifyLoginViewController.h */,
+				9057C8711CD05C7000C17569 /* DDMIVerifyLoginViewController.m */,
+				9057C8931CD0607600C17569 /* DDMIForgetPasswordViewController.h */,
+				9057C8941CD0607600C17569 /* DDMIForgetPasswordViewController.m */,
+				9057C8B61CD07F6000C17569 /* DDMIRegisterViewController.h */,
+				9057C8B71CD07F6000C17569 /* DDMIRegisterViewController.m */,
+				9057C8CF1CD2F94200C17569 /* DDMISMSVerifyViewController.h */,
+				9057C8D01CD2F94200C17569 /* DDMISMSVerifyViewController.m */,
+				9057C8DD1CD364C500C17569 /* DDMICountryListViewController.h */,
+				9057C8DE1CD364C500C17569 /* DDMICountryListViewController.m */,
+				9057C8971CD0607600C17569 /* DDMIAgreementAndPolicyViewController.h */,
+				9057C8981CD0607600C17569 /* DDMIAgreementAndPolicyViewController.m */,
+				9057C8D41CD307B600C17569 /* DDMIHelpViewController.h */,
+				9057C8D51CD307B600C17569 /* DDMIHelpViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9057C8721CD05C7000C17569 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9057C8BD1CD08BA400C17569 /* DDMIAttributedLabel.h */,
+				9057C8BE1CD08BA400C17569 /* DDMIAttributedLabel.m */,
+				9057C8BF1CD08BA400C17569 /* TTTAttributedLabel */,
+				9057C8731CD05C7000C17569 /* DDMICircleIndicator.h */,
+				9057C8741CD05C7000C17569 /* DDMICircleIndicator.m */,
+				9057C8C71CD1F50900C17569 /* DDMIRegisterCodeView.h */,
+				9057C8C81CD1F50900C17569 /* DDMIRegisterCodeView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9057C8BF1CD08BA400C17569 /* TTTAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				9057C8C01CD08BA400C17569 /* TTTAttributedLabel.h */,
+				9057C8C11CD08BA400C17569 /* TTTAttributedLabel.m */,
+			);
+			path = TTTAttributedLabel;
+			sourceTree = "<group>";
+		};
 		905AB85F1C84315D004BB94C = {
 			isa = PBXGroup;
 			children = (
+				9057C8581CD05C7000C17569 /* DDMISDK */,
 				905AB8AD1C8431A2004BB94C /* libstdc++.tbd */,
-				905AB8821C843168004BB94C /* DDMISDK */,
 				905AB86A1C84315D004BB94C /* DDMISDKDemo */,
 				905AB8691C84315D004BB94C /* Products */,
+				86145923169C775168A14A22 /* Pods */,
+				1E5B3CCE9FCFDEC1F2AD6A9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,11 +265,11 @@
 		905AB86A1C84315D004BB94C /* DDMISDKDemo */ = {
 			isa = PBXGroup;
 			children = (
-				905AB8AF1C8431CD004BB94C /* AppDelegate.h */,
-				905AB8B01C8431CD004BB94C /* AppDelegate.m */,
-				905AB8B11C8431CD004BB94C /* DDMainViewController.h */,
-				905AB8B21C8431CD004BB94C /* DDMainViewController.m */,
-				905AB8B31C8431CD004BB94C /* DDMainViewController.xib */,
+				9057C8811CD05CB800C17569 /* AppDelegate.h */,
+				9057C8821CD05CB800C17569 /* AppDelegate.m */,
+				9057C8841CD05CD300C17569 /* DDMainViewController.h */,
+				9057C8851CD05CD300C17569 /* DDMainViewController.m */,
+				9057C8861CD05CD300C17569 /* DDMainViewController.xib */,
 				905AB8741C84315D004BB94C /* Main.storyboard */,
 				905AB8771C84315D004BB94C /* Assets.xcassets */,
 				905AB8791C84315D004BB94C /* LaunchScreen.storyboard */,
@@ -130,42 +287,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		905AB8821C843168004BB94C /* DDMISDK */ = {
-			isa = PBXGroup;
-			children = (
-				905AB8831C843168004BB94C /* DDMIAuthViewController.h */,
-				905AB8841C843168004BB94C /* DDMIAuthViewController.m */,
-				905AB8851C843168004BB94C /* DDMIBaseViewController.h */,
-				905AB8861C843168004BB94C /* DDMIBaseViewController.m */,
-				905AB8871C843168004BB94C /* DDMICircleIndicator.h */,
-				905AB8881C843168004BB94C /* DDMICircleIndicator.m */,
-				905AB8891C843168004BB94C /* DDMIDefines.h */,
-				905AB88A1C843168004BB94C /* DDMIDownLoader.h */,
-				905AB88B1C843168004BB94C /* DDMIDownLoader.m */,
-				905AB88C1C843168004BB94C /* DDMIHandler.h */,
-				905AB88D1C843168004BB94C /* DDMIHandler.m */,
-				905AB88E1C843168004BB94C /* DDMILoginViewController.h */,
-				905AB88F1C843168004BB94C /* DDMILoginViewController.m */,
-				905AB8901C843168004BB94C /* DDMIRequestHandle.h */,
-				905AB8911C843168004BB94C /* DDMIRequestHandle.m */,
-				905AB8921C843168004BB94C /* DDMIResource.bundle */,
-				905AB8931C843168004BB94C /* DDMITypeDefines.h */,
-				905AB8941C843168004BB94C /* DDMIUserInfoItem.h */,
-				905AB8951C843168004BB94C /* DDMIUserInfoItem.m */,
-				905AB8961C843168004BB94C /* DDMIVerifyLoginViewController.h */,
-				905AB8971C843168004BB94C /* DDMIVerifyLoginViewController.m */,
-				905AB8981C843168004BB94C /* UIButton+DDHitTestEdgeInsets.h */,
-				905AB8991C843168004BB94C /* UIButton+DDHitTestEdgeInsets.m */,
-				905AB89A1C843168004BB94C /* UIView+DDAction.h */,
-				905AB89B1C843168004BB94C /* UIView+DDAction.m */,
-				905AB89C1C843168004BB94C /* UIView+DDFrame.h */,
-				905AB89D1C843168004BB94C /* UIView+DDFrame.m */,
-				905AB89E1C843168004BB94C /* XMPassport.framework */,
-			);
-			name = DDMISDK;
-			path = ../DDMISDK;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,9 +294,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 905AB87F1C84315D004BB94C /* Build configuration list for PBXNativeTarget "DDMISDKDemo" */;
 			buildPhases = (
+				A367E897635895D61AD1C921 /* Check Pods Manifest.lock */,
 				905AB8641C84315D004BB94C /* Sources */,
 				905AB8651C84315D004BB94C /* Frameworks */,
 				905AB8661C84315D004BB94C /* Resources */,
+				FD58605FBA44B520E23FC7D5 /* Embed Pods Frameworks */,
+				5DEFE30A49AF96C228599BE6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +331,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 905AB85F1C84315D004BB94C;
 			productRefGroup = 905AB8691C84315D004BB94C /* Products */;
@@ -223,36 +349,96 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				905AB8B61C8431CD004BB94C /* DDMainViewController.xib in Resources */,
+				9057C8881CD05CD300C17569 /* DDMainViewController.xib in Resources */,
 				905AB87B1C84315D004BB94C /* LaunchScreen.storyboard in Resources */,
-				905AB8A61C843168004BB94C /* DDMIResource.bundle in Resources */,
 				905AB8781C84315D004BB94C /* Assets.xcassets in Resources */,
+				90B986441CD995D5009E355A /* DDMIResource.bundle in Resources */,
 				905AB8761C84315D004BB94C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5DEFE30A49AF96C228599BE6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A367E897635895D61AD1C921 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD58605FBA44B520E23FC7D5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		905AB8641C84315D004BB94C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				905AB8A81C843168004BB94C /* DDMIVerifyLoginViewController.m in Sources */,
-				905AB89F1C843168004BB94C /* DDMIAuthViewController.m in Sources */,
-				905AB8A51C843168004BB94C /* DDMIRequestHandle.m in Sources */,
-				905AB8A41C843168004BB94C /* DDMILoginViewController.m in Sources */,
-				905AB8A11C843168004BB94C /* DDMICircleIndicator.m in Sources */,
-				905AB8A31C843168004BB94C /* DDMIHandler.m in Sources */,
-				905AB8A71C843168004BB94C /* DDMIUserInfoItem.m in Sources */,
-				905AB8A21C843168004BB94C /* DDMIDownLoader.m in Sources */,
+				9057C8CE1CD226B100C17569 /* DDMIErrorTool.m in Sources */,
+				9057C8DC1CD34AE200C17569 /* DDMIURLEncode.m in Sources */,
+				9057C8D21CD2F94200C17569 /* DDMISMSVerifyViewController.m in Sources */,
+				9057C8751CD05C7000C17569 /* DDMIDownLoader.m in Sources */,
+				9057C89C1CD0607600C17569 /* DDMIAgreementAndPolicyViewController.m in Sources */,
+				9057C8C31CD08BA400C17569 /* TTTAttributedLabel.m in Sources */,
+				90B986481CD996E0009E355A /* DDMITelephoneRule.m in Sources */,
+				9057C8C61CD0AA7D00C17569 /* DDMIVerifyPasswordTool.m in Sources */,
+				9057C8801CD05C7100C17569 /* DDMICircleIndicator.m in Sources */,
+				9057C87F1CD05C7100C17569 /* DDMIVerifyLoginViewController.m in Sources */,
+				9057C87E1CD05C7100C17569 /* DDMILoginViewController.m in Sources */,
+				9057C89A1CD0607600C17569 /* DDMIForgetPasswordViewController.m in Sources */,
+				9057C8C21CD08BA400C17569 /* DDMIAttributedLabel.m in Sources */,
+				9057C8E41CD376D400C17569 /* UIButton+DDMIHitTestEdgeInsets.m in Sources */,
 				905AB86D1C84315D004BB94C /* main.m in Sources */,
-				905AB8AB1C843168004BB94C /* UIView+DDFrame.m in Sources */,
-				905AB8A01C843168004BB94C /* DDMIBaseViewController.m in Sources */,
-				905AB8AA1C843168004BB94C /* UIView+DDAction.m in Sources */,
-				905AB8B51C8431CD004BB94C /* DDMainViewController.m in Sources */,
-				905AB8A91C843168004BB94C /* UIButton+DDHitTestEdgeInsets.m in Sources */,
-				905AB8B41C8431CD004BB94C /* AppDelegate.m in Sources */,
+				9057C87C1CD05C7100C17569 /* DDMIAuthViewController.m in Sources */,
+				9057C8D61CD307B600C17569 /* DDMIHelpViewController.m in Sources */,
+				9057C8B91CD07F6000C17569 /* DDMIRegisterViewController.m in Sources */,
+				9057C8E01CD364C500C17569 /* DDMICountryListViewController.m in Sources */,
+				9057C8761CD05C7000C17569 /* DDMIRequestHandle.m in Sources */,
+				9057C89E1CD060B000C17569 /* DDMIWebViewController.m in Sources */,
+				9057C8791CD05C7000C17569 /* DDMIHandler.m in Sources */,
+				9057C8831CD05CB800C17569 /* AppDelegate.m in Sources */,
+				9057C8D91CD335A000C17569 /* DDMIAccountManager.m in Sources */,
+				9057C8871CD05CD300C17569 /* DDMainViewController.m in Sources */,
+				9057C8C91CD1F50900C17569 /* DDMIRegisterCodeView.m in Sources */,
+				9057C87D1CD05C7100C17569 /* DDMIBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,10 +546,14 @@
 		};
 		905AB8801C84315D004BB94C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE60B3D0D3642447422AB52 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = /Users/lilingang/Desktop/DDProject/DDMISDKDemo/DDMISDK;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/lilingang/Desktop/DDProject/DDMISDKDemo/DDMISDK,
+					"$(PROJECT_DIR)/DDMISDK/Resources",
+				);
 				INFOPLIST_FILE = DDMISDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DD.DDMISDKDemo;
@@ -373,10 +563,14 @@
 		};
 		905AB8811C84315D004BB94C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADD06D4163F2F3E02ADEC629 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = /Users/lilingang/Desktop/DDProject/DDMISDKDemo/DDMISDK;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/lilingang/Desktop/DDProject/DDMISDKDemo/DDMISDK,
+					"$(PROJECT_DIR)/DDMISDK/Resources",
+				);
 				INFOPLIST_FILE = DDMISDKDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DD.DDMISDKDemo;
@@ -403,6 +597,7 @@
 				905AB8811C84315D004BB94C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

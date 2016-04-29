@@ -1,0 +1,19 @@
+PODS:
+  - DDSocial/Core (1.2.0)
+
+DEPENDENCIES:
+  - DDSocial/Core (from `https://github.com/393385724/DDSocial.git`)
+
+EXTERNAL SOURCES:
+  DDSocial:
+    :git: https://github.com/393385724/DDSocial.git
+
+CHECKOUT OPTIONS:
+  DDSocial:
+    :commit: c46abdbee9e56d1ef49495d22442d9f3dbeccfb2
+    :git: https://github.com/393385724/DDSocial.git
+
+SPEC CHECKSUMS:
+  DDSocial: 3ed88c04b16df3f1dd6e8d8af3ed0db97eba7689
+
+COCOAPODS: 0.39.0
