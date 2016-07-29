@@ -17,7 +17,8 @@
 
 #ifndef MIResourceBundle
 #define MIResourceBundle \
-[NSBundle bundleWithPath:MIResourceBundlePath]
+[NSBundle mainBundle]
+//[NSBundle bundleWithPath:MIResourceBundlePath]
 #endif
 
 #ifndef MILocal
@@ -28,6 +29,7 @@
 #ifndef MIImage
 #define MIImage(s) \
 [UIImage imageNamed:s]
+//[UIImage imageWithContentsOfFile:[MIResourceBundlePath stringByAppendingPathComponent:s]]
 #endif
 
 #ifndef MIIsEmptyString

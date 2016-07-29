@@ -185,24 +185,28 @@ typedef NS_ENUM(NSUInteger, DDMILoginType) {
         self.codeImageView.hidden = YES;
         self.passwordTextField.returnKeyType = UIReturnKeyDone;
         
-        contentViewHeight = 337;
+        contentViewHeight = 381;
         inputbackImageViewHeight = 112;
         self.inputbackImageView.image = MIImage(@"dd_mi_login_input_bg");
-        self.forgetPasswordTopConstraint.constant = 8.0;
-        self.registerHorizontalConstraint.constant = 0.0;
-        self.registerBottomConstraint.constant = 8.0;
+        if ([UIScreen mainScreen].bounds.size.height <= 480) {
+            self.forgetPasswordTopConstraint.constant = 8.0;
+            self.registerHorizontalConstraint.constant = 0.0;
+            self.registerBottomConstraint.constant = 8.0;
+        }
     } else {
         self.codeTextField.hidden = NO;
         self.codeImageView.hidden = NO;
         self.passwordTextField.returnKeyType = UIReturnKeyNext;
         self.loginButton.enabled = NO;
         
-        contentViewHeight = 387;
+        contentViewHeight = 430;
         inputbackImageViewHeight = 162;
         self.inputbackImageView.image = MIImage(@"dd_mi_login_input_bg_verification");
-        self.forgetPasswordTopConstraint.constant = 0;
-        self.registerHorizontalConstraint.constant = -60;
-        self.registerBottomConstraint.constant = 0.0;
+        if ([UIScreen mainScreen].bounds.size.height <= 480) {
+            self.forgetPasswordTopConstraint.constant = 0;
+            self.registerHorizontalConstraint.constant = -60;
+            self.registerBottomConstraint.constant = 0.0;
+        }
     }
     self.contentView.frame = CGRectMake(CGRectGetMinX(self.contentView.frame), CGRectGetMinY(self.contentView.frame), CGRectGetWidth(self.contentView.frame), contentViewHeight);
     self.inputbackImageView.frame = CGRectMake(CGRectGetMinX(self.inputbackImageView.frame), CGRectGetMinY(self.inputbackImageView.frame), CGRectGetWidth(self.inputbackImageView.frame), inputbackImageViewHeight);

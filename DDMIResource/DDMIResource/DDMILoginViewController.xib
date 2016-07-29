@@ -169,7 +169,7 @@
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
                             <connections>
-                                <action selector="forgetPasswordButtonAction:" destination="-1" eventType="touchUpInside" id="xgA-Ko-igL"/>
+                                <action selector="forgetPasswordButtonAction:" destination="-1" eventType="touchUpInside" id="z1j-aC-ECC"/>
                             </connections>
                         </button>
                     </subviews>

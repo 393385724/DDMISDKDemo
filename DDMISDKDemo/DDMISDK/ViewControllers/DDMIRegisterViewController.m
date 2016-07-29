@@ -34,8 +34,9 @@ NSString * const DDMIPrivacyPolicyHTML = @"http://www.miui.com/res/doc/privacy/%
 //input
 @property (weak, nonatomic) IBOutlet UIImageView *inputBackImageView;
 @property (weak, nonatomic) IBOutlet UILabel *areaCodeLabel;
+@property (weak, nonatomic) IBOutlet UIView *countryContentView;
 @property (weak, nonatomic) IBOutlet UILabel *countryLabel;
-@property (weak, nonatomic) IBOutlet UIButton *moreCountyButton;
+@property (weak, nonatomic) IBOutlet UIImageView *moreCountryImageView;
 @property (weak, nonatomic) IBOutlet UILabel *phoneTextLabel;
 @property (weak, nonatomic) IBOutlet UITextField *phoneTextField;
 @property (weak, nonatomic) IBOutlet UILabel *passwordTextLabel;
@@ -73,13 +74,16 @@ NSString * const DDMIPrivacyPolicyHTML = @"http://www.miui.com/res/doc/privacy/%
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = MILocal(@"注册");
-    self.moreCountyButton.miHitTestEdgeInsets = UIEdgeInsetsMake(-10, -20, -10, -10);
     self.showPasswordButton.miHitTestEdgeInsets = UIEdgeInsetsMake(-10, -20, -10, -10);
     
     self.registerButton.layer.borderWidth = 1;
     self.registerButton.layer.cornerRadius = CGRectGetHeight(self.registerButton.frame)/2.0;
     self.registerButton.layer.borderColor = [UIColor colorWithRed:236/255.0f green:236/255.0f blue:236/255.0f alpha:1].CGColor;
     [self.registerButton setBackgroundColor:[UIColor colorWithRed:252/255.0f green:252/255.0f blue:252/255.0f alpha:1]];
+    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(moreCountryAction)];
+    self.countryContentView.userInteractionEnabled = YES;
+    [self.countryContentView addGestureRecognizer:tap];
 
     //隐藏键盘
     UISwipeGestureRecognizer *swipeRecognizer = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(hidenKeyboard:)];
@@ -90,13 +94,13 @@ NSString * const DDMIPrivacyPolicyHTML = @"http://www.miui.com/res/doc/privacy/%
     
     
     self.inputBackImageView.image = MIImage(@"dd_mi_register_input_bg");
-    [self.moreCountyButton setImage:MIImage(@"dd_mi_more_country") forState:UIControlStateNormal];
+    self.moreCountryImageView.image = MIImage(@"dd_mi_more_country@2x.jpg");
     self.phoneTextLabel.text = MILocal(@"手机号:");
     self.phoneTextField.placeholder = MILocal(@"请输入手机号");
     self.passwordTextLabel.text = MILocal(@"密码:");
     self.passwordTextField.placeholder = MILocal(@"8-16位数字、字母、字符(至少两种)");
     [self.showPasswordButton setImage:MIImage(@"dd_mi_show_password") forState:UIControlStateNormal];
-    [self.showPasswordButton setImage:MIImage(@"dd_mi_hide_password") forState:UIControlStateSelected];
+    [self.showPasswordButton setImage:MIImage(@"dd_mi_hide_password@2x.jpg") forState:UIControlStateSelected];
     [self.registerButton setTitle:MILocal(@"注册") forState:UIControlStateNormal];
     NSString *remindFormatString = MILocal(@"点击\"注册\"代表您同意并接受小米的%@和%@");
     NSString *userAgreeMentString = MILocal(@"用户协议");
@@ -128,7 +132,7 @@ NSString * const DDMIPrivacyPolicyHTML = @"http://www.miui.com/res/doc/privacy/%
 
 #pragma mark - Button Action
 
-- (IBAction)moreCountryButtonAction:(id)sender {
+- (void)moreCountryAction {
     DDMICountryListViewController *viewController = [[DDMICountryListViewController alloc] init];
     viewController.delegate = self;
     [self.navigationController pushViewController:viewController animated:YES];

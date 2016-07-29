@@ -32,8 +32,8 @@
         customLedfNavigationBarView = cancelButton;
     } else {
         UIButton* backButton= [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 60, 44)];
-        [backButton setImage:[UIImage imageNamed:@"dd_mi_nav_back_normal"] forState:UIControlStateNormal];
-        [backButton setImage:[UIImage imageNamed:@"dd_mi_nav_back_highlight"] forState:UIControlStateHighlighted];
+        [backButton setImage:MIImage(@"dd_mi_back_normal") forState:UIControlStateNormal];
+        [backButton setImage:MIImage(@"dd_mi_back_highlight") forState:UIControlStateHighlighted];
         [backButton addTarget:self action:@selector(backButtonAction:) forControlEvents:UIControlEventTouchUpInside];
         customLedfNavigationBarView = backButton;
     }

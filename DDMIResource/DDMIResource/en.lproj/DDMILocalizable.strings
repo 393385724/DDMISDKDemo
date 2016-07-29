@@ -45,7 +45,7 @@
 
 /**注册页面*/
 "注册" = "Register";
-"手机号:" = "Phone number:";
+"手机号:" = "Mobile:";
 "请输入手机号" = "Please enter the phone number";
 "密码:" = "Password:";
 "8-16位数字、字母、字符(至少两种)" = "Password must be 8-16 characters long and contain both letters and numbers";

@@ -11,11 +11,12 @@
                 <outlet property="areaCodeLabel" destination="jRk-4q-oJh" id="efX-Xo-JXi"/>
                 <outlet property="contentView" destination="orw-So-4Nd" id="sgA-I9-J17"/>
                 <outlet property="contentViewTopConstraint" destination="bM3-Gw-Rqw" id="FKu-P1-zJH"/>
+                <outlet property="countryContentView" destination="X81-EJ-1hd" id="6kn-WK-pIE"/>
                 <outlet property="countryLabel" destination="cTe-yR-0Lt" id="awq-vD-YYd"/>
                 <outlet property="errorTipLabel" destination="rJF-KO-gWp" id="XPX-KF-XkO"/>
                 <outlet property="indicatorView" destination="pVo-Nm-l6K" id="6rw-pc-6sb"/>
                 <outlet property="inputBackImageView" destination="klq-Oq-mYv" id="q0s-sI-VbO"/>
-                <outlet property="moreCountyButton" destination="QDE-sB-Wab" id="43h-4n-Wwq"/>
+                <outlet property="moreCountryImageView" destination="9Jq-hM-CJV" id="aeY-wz-3eN"/>
                 <outlet property="passwordTextField" destination="lhP-u8-27g" id="HAD-nD-0Kf"/>
                 <outlet property="passwordTextLabel" destination="T2d-9r-Dmb" id="6N7-xa-YLF"/>
                 <outlet property="phoneTextField" destination="ivE-Cq-9au" id="HkU-G0-9Ye"/>
@@ -48,27 +49,38 @@
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中国" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTe-yR-0Lt" userLabel="countryLabel">
-                                    <rect key="frame" x="62" y="0.0" width="195" height="50"/>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X81-EJ-1hd" userLabel="countryContentView">
+                                    <rect key="frame" x="62" y="0.0" width="230" height="50"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中国" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTe-yR-0Lt" userLabel="countryLabel">
+                                            <rect key="frame" x="0.0" y="0.0" width="207" height="50"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="D1b-iT-6qN"/>
+                                                <constraint firstAttribute="width" constant="207" id="aqm-Od-i4v"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9Jq-hM-CJV" userLabel="moreCountryImageView">
+                                            <rect key="frame" x="215" y="17" width="15" height="15"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="15" id="42h-i6-ZU5"/>
+                                                <constraint firstAttribute="width" constant="15" id="I9x-MP-suX"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="50" id="D1b-iT-6qN"/>
-                                        <constraint firstAttribute="width" constant="195" id="aqm-Od-i4v"/>
+                                        <constraint firstItem="9Jq-hM-CJV" firstAttribute="centerY" secondItem="X81-EJ-1hd" secondAttribute="centerY" id="A1T-8X-XLk"/>
+                                        <constraint firstAttribute="trailing" secondItem="9Jq-hM-CJV" secondAttribute="trailing" id="AAG-WR-xvN"/>
+                                        <constraint firstAttribute="height" constant="50" id="Dix-ZO-tqU"/>
+                                        <constraint firstAttribute="bottom" secondItem="cTe-yR-0Lt" secondAttribute="bottom" id="hZB-ao-IOY"/>
+                                        <constraint firstItem="cTe-yR-0Lt" firstAttribute="top" secondItem="X81-EJ-1hd" secondAttribute="top" id="iZ8-Q7-EdV"/>
+                                        <constraint firstItem="cTe-yR-0Lt" firstAttribute="leading" secondItem="X81-EJ-1hd" secondAttribute="leading" id="s6a-wT-kyu"/>
+                                        <constraint firstAttribute="width" constant="230" id="t97-bd-WAp"/>
                                     </constraints>
-                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QDE-sB-Wab" userLabel="moreCountryButton">
-                                    <rect key="frame" x="277" y="17" width="15" height="15"/>
-                                    <constraints>
-                                        <constraint firstAttribute="height" constant="15" id="Pev-GI-X2B"/>
-                                        <constraint firstAttribute="width" constant="15" id="x0h-Me-KNV"/>
-                                    </constraints>
-                                    <state key="normal" image="dd_mi_more_country"/>
-                                    <connections>
-                                        <action selector="moreCountryButtonAction:" destination="-1" eventType="touchUpInside" id="Qd7-qM-M3z"/>
-                                    </connections>
-                                </button>
+                                </view>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="手机号:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uga-gz-M4J" userLabel="phoneTextLabel">
                                     <rect key="frame" x="0.0" y="50" width="57" height="50"/>
                                     <constraints>
@@ -130,25 +142,23 @@
                                 <constraint firstAttribute="trailing" secondItem="B0z-xu-IEs" secondAttribute="trailing" constant="8" id="1Ej-gr-5Cz"/>
                                 <constraint firstItem="Uga-gz-M4J" firstAttribute="leading" secondItem="icg-2h-3yJ" secondAttribute="leading" id="1i2-8L-fnX"/>
                                 <constraint firstItem="klq-Oq-mYv" firstAttribute="top" secondItem="icg-2h-3yJ" secondAttribute="top" id="4AF-Tz-OWs"/>
-                                <constraint firstItem="QDE-sB-Wab" firstAttribute="top" secondItem="icg-2h-3yJ" secondAttribute="top" constant="17" id="7gn-ew-fyv"/>
                                 <constraint firstItem="B0z-xu-IEs" firstAttribute="top" secondItem="ivE-Cq-9au" secondAttribute="bottom" constant="28" id="9f7-Bp-yua"/>
                                 <constraint firstItem="ivE-Cq-9au" firstAttribute="leading" secondItem="Uga-gz-M4J" secondAttribute="trailing" constant="5" id="AOX-eT-2gW"/>
                                 <constraint firstItem="klq-Oq-mYv" firstAttribute="leading" secondItem="icg-2h-3yJ" secondAttribute="leading" id="Ini-5d-r5U"/>
                                 <constraint firstItem="T2d-9r-Dmb" firstAttribute="top" secondItem="Uga-gz-M4J" secondAttribute="bottom" id="Lqx-JY-5rl"/>
+                                <constraint firstItem="X81-EJ-1hd" firstAttribute="top" secondItem="icg-2h-3yJ" secondAttribute="top" id="ONu-k5-Vd5"/>
                                 <constraint firstItem="lhP-u8-27g" firstAttribute="leading" secondItem="T2d-9r-Dmb" secondAttribute="trailing" constant="5" id="Pgq-TT-2Mu"/>
-                                <constraint firstItem="ivE-Cq-9au" firstAttribute="top" secondItem="cTe-yR-0Lt" secondAttribute="bottom" constant="11" id="Vz1-CS-uk5"/>
+                                <constraint firstItem="X81-EJ-1hd" firstAttribute="leading" secondItem="jRk-4q-oJh" secondAttribute="trailing" constant="5" id="YNl-Ex-FTi"/>
                                 <constraint firstAttribute="trailing" secondItem="klq-Oq-mYv" secondAttribute="trailing" id="Zo4-Dd-GUx"/>
-                                <constraint firstItem="cTe-yR-0Lt" firstAttribute="leading" secondItem="jRk-4q-oJh" secondAttribute="trailing" constant="5" id="aOQ-x2-r8d"/>
                                 <constraint firstAttribute="bottom" secondItem="klq-Oq-mYv" secondAttribute="bottom" id="ggz-Cb-rQW"/>
+                                <constraint firstItem="lhP-u8-27g" firstAttribute="centerY" secondItem="T2d-9r-Dmb" secondAttribute="centerY" id="iKc-oM-K01"/>
                                 <constraint firstAttribute="width" constant="300" id="ixX-GF-Ggb"/>
                                 <constraint firstAttribute="height" constant="151" id="k4l-zf-Izs"/>
                                 <constraint firstItem="T2d-9r-Dmb" firstAttribute="leading" secondItem="icg-2h-3yJ" secondAttribute="leading" id="oCa-Yj-w6l"/>
                                 <constraint firstItem="jRk-4q-oJh" firstAttribute="leading" secondItem="icg-2h-3yJ" secondAttribute="leading" id="tOA-kG-dHC"/>
                                 <constraint firstItem="Uga-gz-M4J" firstAttribute="top" secondItem="jRk-4q-oJh" secondAttribute="bottom" id="ubX-6P-89M"/>
                                 <constraint firstItem="jRk-4q-oJh" firstAttribute="top" secondItem="icg-2h-3yJ" secondAttribute="top" id="vDQ-Yg-7C8"/>
-                                <constraint firstItem="cTe-yR-0Lt" firstAttribute="top" secondItem="icg-2h-3yJ" secondAttribute="top" id="xwS-pG-ZIK"/>
                                 <constraint firstItem="lhP-u8-27g" firstAttribute="top" secondItem="ivE-Cq-9au" secondAttribute="bottom" constant="19" id="yJr-vd-isa"/>
-                                <constraint firstAttribute="trailing" secondItem="QDE-sB-Wab" secondAttribute="trailing" constant="8" id="yce-8n-6FF"/>
                             </constraints>
                         </view>
                         <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rJF-KO-gWp" userLabel="errorTipLabel">
@@ -189,7 +199,7 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pVo-Nm-l6K" userLabel="indicatorView" customClass="DDMICircleIndicator">
-                            <rect key="frame" x="135.5" y="196" width="24" height="24"/>
+                            <rect key="frame" x="135" y="196" width="24" height="24"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="24" id="4GL-Wo-fJB"/>
@@ -220,11 +230,10 @@
                 <constraint firstItem="orw-So-4Nd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="xw3-rR-sUg"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-            <point key="canvasLocation" x="180.5" y="313.5"/>
+            <point key="canvasLocation" x="196.5" y="278.5"/>
         </view>
     </objects>
     <resources>
-        <image name="dd_mi_more_country" width="15" height="15"/>
         <image name="dd_mi_register_input_bg" width="300" height="151"/>
         <image name="dd_mi_show_password" width="16" height="12"/>
     </resources>
